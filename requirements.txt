@@ -1,0 +1,4 @@
+pyPDF2
+pdfplumber
+pandas
+requests
