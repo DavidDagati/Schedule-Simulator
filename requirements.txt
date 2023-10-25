@@ -2,3 +2,4 @@ pyPDF2
 pdfplumber
 pandas
 requests
+flask
