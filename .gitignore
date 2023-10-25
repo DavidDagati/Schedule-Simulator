@@ -161,3 +161,5 @@ cython_debug/
 
 # MongoDB Cert
 X509-cert-886872491378304176.pem
+# vs code stuff
+launch.json
