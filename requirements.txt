@@ -3,3 +3,4 @@ pdfplumber
 pandas
 requests
 flask
+bandit
