@@ -1,8 +1,14 @@
 import flask
+from mongoengine import connect
 #Possibly use mongoengine
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
+
+connection = connect(
+    host="mongodb+srv://schedule-simulator.ytwhhjc.mongodb.net/?authSource=%24external&authMechanism=MONGODB-X509&retryWrites=true&w=majority"
+)
+print(connection)
 
 #Reference: https://programminghistorian.org/en/lessons/creating-apis-with-python-and-flask
 
