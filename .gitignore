@@ -159,6 +159,9 @@ cython_debug/
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
 
+#Node
+node_modules
+
 # MongoDB Cert
 X509-cert-886872491378304176.pem
 # vs code stuff

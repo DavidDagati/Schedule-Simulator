@@ -3,7 +3,7 @@ COMP 4150
 
 ## Setup
 
-### Virtual Environment
+### Virtual Environment (in python folder)
 Python -m venv env
 env/Scripts/Activate
 pip install -r requirements.txt
