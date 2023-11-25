@@ -1,0 +1,34 @@
+{
+    "0":    {
+                "name": "Computer Science",
+                "code": "COMP"
+            },
+    "1":    {
+                "name": "Mathematics and Statistics",
+                "code": "MATH"
+            },
+    "2":    {
+                "name": "Mathematics and Statistics",
+                "code": "STAT"
+            },
+    "3":    {
+                "name": "Business",
+                "code": "ACCT"
+            },
+    "4":    {
+                "name": "Business",
+                "code": "FINA"
+            },
+    "5":    {
+                "name": "Business",
+                "code": "MKTG"
+            },
+    "6":    {
+                "name": "Business",
+                "code": "STEN"
+            },
+    "7":    {
+                "name": "Business",
+                "code": "ECON"
+            }
+}

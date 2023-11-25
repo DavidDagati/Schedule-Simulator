@@ -1,4 +1,5 @@
 from datetime import datetime
+from clean import course_code_cleaner
 import json
 import pdfplumber
 import requests
@@ -39,9 +40,12 @@ for term, url in timetable_urls.items():
             for page in pdf.pages:
                 text = page.extract_text()
 
-                matches = re.findall(r"COMP-[0-9]{4}[ AB]{1}", text)
+                matches = re.findall(r"COMP-[0-9]{4}[ AB]{1}|MATH-[0-9]{4}|STAT-[0-9]{4}", text)
+                # matches = re.findall(r"COMP-[0-9]{4}[ AB]{1}|MATH-[0-9]{4}|STAT-[0-9]{4}|ACCT-[0-9]{4}|FINA-[0-9]{4}|MGMT-[0-9]{4}|MKTG-[0-9]{4}|MSCI-[0-9]{4}|STEN-[0-9]{4}", text)
 
                 matching_values.extend(matches)
+
+        matching_values = map(course_code_cleaner,matching_values)
 
         matching_values = list(set(matching_values))
 

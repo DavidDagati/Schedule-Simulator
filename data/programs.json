@@ -1,0 +1,22 @@
+{
+    "0":    {
+                "name": "Bachelor of Computer Science (General)",
+                "dept": "0"
+            },
+    "1":    {
+                "name": "Bachelor of Computer Science (Honours)",
+                "code": "0"
+            },
+    "2":    {
+                "name": "Bachelor of Computer Science (Honours Applied Computing)",
+                "code": "0"
+            },
+    "3":    {
+                "name": "Bachelor of Science (Honours Computer Information Systems)",
+                "code": "0"
+            },
+    "4":    {
+                "name": "Bachelor of Science (Honours Computer Science with Software Engineering Specialization)",
+                "code": "0"
+            }
+}

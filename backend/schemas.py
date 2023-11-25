@@ -6,6 +6,8 @@ class Course(Document):
     course_code = StringField(required=True)
     term = StringField(required=True)
     description = StringField()
+    prerequisites = ListField(ObjectIdField())
+    antirequisites = ListField(ObjectIdField())
     meta = {'collection': 'courses'}
 
 class Department(Document):
