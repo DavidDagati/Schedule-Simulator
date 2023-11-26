@@ -1,5 +1,11 @@
 import mongoose from 'mongoose';
 
+export type Program = {
+    name: String;
+    department: Number;
+    requiredCourses?: Array<Number>;
+}
+
 const ProgramSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -11,7 +17,7 @@ const ProgramSchema = new mongoose.Schema({
         required: true,
     },
     requiredCourses: {
-        type: [String] //Format of DEPT_CODE-COURSE_CODE, example: 0-4150 for COMP 4150
+        type: [String] //Format of DEPT_CODE-COURSE_CODE, example: 0-58
     }
 })
 
