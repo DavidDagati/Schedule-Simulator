@@ -1,7 +1,7 @@
-{
-    "0":    {
+[
+    {
                 "name": "Bachelor of Computer Science (General)",
-                "dept": "Computer Science",
+                "department": "Computer Science",
                 "requiredCourses": ["COMP-1000", "COMP-1400", "COMP-1410", "COMP-2120", "COMP-2540", "COMP-2560", "COMP-2650", "COMP-2660", "COMP-3150", "COMP-3220", "COMP-3300", "COMP-3340", "or MATH-1250 MATH-1260", "or MATH-1720 MATH-1760", "STAT-2910"],
                 "otherRequirements": "1 Arts/Languages, 1 Social Sciences, 2 Computer Science courses not ending in 7, 11 any area of study including Computer Science",
                 "defaultSequence": {
@@ -16,7 +16,7 @@
                                         "s3": []
                                     }
             },
-    "1":    {
+{
                 "name": "Bachelor of Computer Science (Honours)",
                 "department": "Computer Science",
                 "requiredCourses": ["COMP-1000", "COMP-1400", "COMP-1410", "COMP-2120", "COMP-2140", "COMP-2310", "COMP-2540", "COMP-2560", "COMP-2650", "COMP-2660", "COMP-3110", "COMP-3150", "COMP-3220", "COMP-3300", "COMP-3540", "COMP-3670", "COMP-4400", "COMP-4540", "COMP-4960", "MATH-1020", "or MATH-1250 MATH-1260", "or MATH-1720 MATH-1760", "MATH-1730", "MATH-3940", "STAT-2910"],
@@ -36,7 +36,7 @@
                                         "s4": []
                                     }
             },
-    "2":    {
+{
                 "name": "Bachelor of Computer Science (Honours Applied Computing)",
                 "department": "Computer Science",
                 "requiredCourses": ["COMP-1000", "COMP-1400", "COMP-1410", "COMP-2120", "COMP-2540", "COMP-2560", "COMP-2650", "COMP-2660", "COMP-3150", "COMP-3220", "COMP-3300", "COMP-3340", "COMP-3670", "COMP-4150", "COMP-4200", "COMP-4220", "COMP-4250", "COMP-4990", "or MATH-1250 MATH-1260", "or MATH-1720 MATH-1760", "STAT-2910"],
@@ -56,7 +56,7 @@
                                         "s4": []
                                     }
             },
-    "4":    {
+{
                 "name": "Bachelor of Science (Honours Computer Science with Software Engineering Specialization)",
                 "department": "Computer Science",
                 "requiredCourses": ["COMP-1000", "COMP-1400", "COMP-1410", "COMP-2120", "COMP-2140", "COMP-2310", "COMP-2540", "COMP-2560", "COMP-2650", "COMP-2660", "COMP-2800", "COMP-3110", "COMP-3150", "COMP-3220", "COMP-3300", "COMP-3540", "COMP-3670", "COMP-4110", "COMP-4400", "COMP-4540", "COMP-4800", "COMP-4660", "MATH-1020", "or MATH-1250 MATH-1260", "or MATH-1720 MATH-1760", "MATH-1730", "STAT-2910"],
@@ -76,4 +76,4 @@
                                         "s4": []
                                     }
             }
-}
+        ]
