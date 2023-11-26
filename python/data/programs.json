@@ -1,22 +1,79 @@
 {
     "0":    {
                 "name": "Bachelor of Computer Science (General)",
-                "dept": "0"
+                "dept": "Computer Science",
+                "requiredCourses": ["COMP-1000", "COMP-1400", "COMP-1410", "COMP-2120", "COMP-2540", "COMP-2560", "COMP-2650", "COMP-2660", "COMP-3150", "COMP-3220", "COMP-3300", "COMP-3340", "or MATH-1250 MATH-1260", "or MATH-1720 MATH-1760", "STAT-2910"],
+                "otherRequirements": "1 Arts/Languages, 1 Social Sciences, 2 Computer Science courses not ending in 7, 11 any area of study including Computer Science",
+                "defaultSequence": {
+                                        "f1": ["COMP-1000", "COMP-1400", "MATH-1250", "MATH-1720"],
+                                        "w1": ["COMP-1410", "COMP-2650"],
+                                        "s1": [],
+                                        "f2": ["COMP-2120", "COMP-2540", "COMP-2560"],
+                                        "w2": ["COMP-2660", "STAT-2910"],
+                                        "s2": [],
+                                        "f3": ["COMP-3150", "COMP-3220"],
+                                        "w3": ["COMP-3300", "COMP-3340"],
+                                        "s3": []
+                                    }
             },
     "1":    {
                 "name": "Bachelor of Computer Science (Honours)",
-                "code": "0"
+                "department": "Computer Science",
+                "requiredCourses": ["COMP-1000", "COMP-1400", "COMP-1410", "COMP-2120", "COMP-2140", "COMP-2310", "COMP-2540", "COMP-2560", "COMP-2650", "COMP-2660", "COMP-3110", "COMP-3150", "COMP-3220", "COMP-3300", "COMP-3540", "COMP-3670", "COMP-4400", "COMP-4540", "COMP-4960", "MATH-1020", "or MATH-1250 MATH-1260", "or MATH-1720 MATH-1760", "MATH-1730", "MATH-3940", "STAT-2910"],
+                "otherRequirements": "1 Arts/Languages, 1 Social Sciences, 1 Arts/Languages/Social Sciences, 1 Computer Science Course at the 3XXX or 4XXX level, 3 Courses at the 2XXX - 4XXX level from Mathematics/Statistics or Computer Science, 7 other courses from any area of study, including Computer Science",
+                "defaultSequence": {
+                                        "f1": ["COMP-1000", "COMP-1400", "MATH-1250", "MATH-1720"],
+                                        "w1": ["COMP-1410", "COMP-2650", "MATH-1020", "MATH-1730"],
+                                        "s1": [],
+                                        "f2": ["COMP-2120", "COMP-2310", "COMP-2540", "COMP-2560"],
+                                        "w2": ["COMP-2140", "COMP-2660", "STAT-2910"],
+                                        "s2": [],
+                                        "f3": ["COMP-3110", "COMP-3150", "COMP-3220", "COMP-3670"],
+                                        "w3": ["COMP-3300", "COMP-3540", "MATH-3940"],
+                                        "s3": [],
+                                        "f4": ["COMP-4400", "COMP-4540", "COMP-4990A"],
+                                        "w4": ["COMP-4990B"],
+                                        "s4": []
+                                    }
             },
     "2":    {
                 "name": "Bachelor of Computer Science (Honours Applied Computing)",
-                "code": "0"
-            },
-    "3":    {
-                "name": "Bachelor of Science (Honours Computer Information Systems)",
-                "code": "0"
+                "department": "Computer Science",
+                "requiredCourses": ["COMP-1000", "COMP-1400", "COMP-1410", "COMP-2120", "COMP-2540", "COMP-2560", "COMP-2650", "COMP-2660", "COMP-3150", "COMP-3220", "COMP-3300", "COMP-3340", "COMP-3670", "COMP-4150", "COMP-4200", "COMP-4220", "COMP-4250", "COMP-4990", "or MATH-1250 MATH-1260", "or MATH-1720 MATH-1760", "STAT-2910"],
+                "otherRequirements": "1 Arts/Languages, 1 Social Sciences, 13 courses in any area of study including Computer Science",
+                "defaultSequence": {
+                                        "f1": ["COMP-1000", "COMP-1400", "MATH-1250", "MATH-1720"],
+                                        "w1": ["COMP-1410", "COMP-2650"],
+                                        "s1": [],
+                                        "f2": ["COMP-2120", "COMP-2540", "COMP-2560"],
+                                        "w2": ["COMP-2660", "STAT-2910"],
+                                        "s2": [],
+                                        "f3": ["COMP-3150", "COMP-3220", "COMP-3670"],
+                                        "w3": ["COMP-3300", "COMP-3340"],
+                                        "s3": [],
+                                        "f4": ["COMP-4150", "COMP-4250", "COMP-4990A"],
+                                        "w4": ["COMP-4200", "COMP-4990B"],
+                                        "s4": []
+                                    }
             },
     "4":    {
                 "name": "Bachelor of Science (Honours Computer Science with Software Engineering Specialization)",
-                "code": "0"
+                "department": "Computer Science",
+                "requiredCourses": ["COMP-1000", "COMP-1400", "COMP-1410", "COMP-2120", "COMP-2140", "COMP-2310", "COMP-2540", "COMP-2560", "COMP-2650", "COMP-2660", "COMP-2800", "COMP-3110", "COMP-3150", "COMP-3220", "COMP-3300", "COMP-3540", "COMP-3670", "COMP-4110", "COMP-4400", "COMP-4540", "COMP-4800", "COMP-4660", "MATH-1020", "or MATH-1250 MATH-1260", "or MATH-1720 MATH-1760", "MATH-1730", "STAT-2910"],
+                "otherRequirements": "1 Arts/Languages, 1 Social Sciences, 4 courses, one from each category: (i) Dynamics and Psychology: PSYC-1150, PSYC-2180, PHIL2280, PHIL-1290, (ii) Communication skills: CMAF-2210, DRAM-2100, ENGL-1001, (iii) Professionalism: PHIL-2210, PHIL-2240, GART-2090, ENGL-1005, and (iv) Business and Management: MKTG-1310, MGMT2400, STEN-1000. 4 any area of study including Computer Science, 1 Course at the 2XXX-4XXX level from Mathematics/Statistics or Computer Science (excluding COMP-XXX7)",
+                "defaultSequence": {
+                                        "f1": ["COMP-1000", "COMP-1400", "MATH-1250", "MATH-1720"],
+                                        "w1": ["COMP-1410", "COMP-2650", "MATH-1020", "MATH-1730"],
+                                        "s1": [],
+                                        "f2": ["COMP-2120", "COMP-2310", "COMP-2540", "COMP-2560"],
+                                        "w2": ["COMP-2140", "COMP-2660", "COMP-2800", "STAT-2910"],
+                                        "s2": [],
+                                        "f3": ["COMP-3110", "COMP-3150", "COMP-3220", "COMP-3670"],
+                                        "w3": ["COMP-3300", "COMP-3540"],
+                                        "s3": [],
+                                        "f4": ["COMP-4400", "COMP-4540", "COMP-4990A"],
+                                        "w4": ["COMP-4110", "COMP-4800", "COMP-4990B"],
+                                        "s4": []
+                                    }
             }
 }

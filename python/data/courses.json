@@ -1,972 +1,659 @@
 {
-    "0":    {
+    "MATH-1250":    {
                 "name": "Linear Algebra I",
-                "department": "1",
+                "department": "MATH",
                 "course_code": "1250",
                 "term": "",
-                "description": "This course will cover linear systems, matrix algebra, determinants, n-dimensional vectors, dot product,
-                cross product, orthogonalization, eigenvalues, eigenvectors, diagonalization and vector spaces.
-                (Prerequisites: Both Ontario Grade 12 Advanced Functions (MHF4U) and Calculus and Vectors (MCV4U)
-                or MATH-1280.) (Antirequisites: MATH-1260, MATH-1270.) (3 lecture hours, 2 tutorial hours per week.)" ,
+                "description": "This course will cover linear systems, matrix algebra, determinants, n-dimensional vectors, dot product, cross product, orthogonalization, eigenvalues, eigenvectors, diagonalization and vector spaces. (Prerequisites: Both Ontario Grade 12 Advanced Functions (MHF4U) and Calculus and Vectors (MCV4U) or MATH-1280.) (Antirequisites: MATH-1260, MATH-1270.) (3 lecture hours, 2 tutorial hours per week.)",
                 "prerequisites": [],
-                "antirequisites": ["1"]
+                "antirequisites": ["MATH-1260"]
             },
-    "1":    {
+    "MATH-1260":    {
                 "name": "Vectors and Linear Algebra",
-                "department": "1",
+                "department": "MATH",
                 "course_code": "1260",
                 "term": "",
-                "description": "This course is for students without Ontario Grade 12 Calculus and Vectors (MCV4U). The course MATH1250 is for students with MCV4U. This course will cover vectors, three-dimensional geometry, linear
-                systems, matrix algebra, determinants, n- dimensional vectors, dot product, cross product,
-                orthogonalization, eigenvalues, eigenvectors, diagonalization and vector spaces. The course is equivalent to MATH-1250 for all prerequisite purposes. (Prerequisite: Ontario Grade 12 Advanced Functions
-                (MHF4U).) (Antirequisites: MATH-1250, MATH-1270.) (4 lecture hours, 2 tutorial hours per week.)",
+                "description": "This course is for students without Ontario Grade 12 Calculus and Vectors (MCV4U). The course MATH1250 is for students with MCV4U. This course will cover vectors, three-dimensional geometry, linear systems, matrix algebra, determinants, n- dimensional vectors, dot product, cross product, orthogonalization, eigenvalues, eigenvectors, diagonalization and vector spaces. The course is equivalent to MATH-1250 for all prerequisite purposes. (Prerequisite: Ontario Grade 12 Advanced Functions (MHF4U).) (Antirequisites: MATH-1250, MATH-1270.) (4 lecture hours, 2 tutorial hours per week.)",
                 "prerequisites": [],
-                "antirequisites": ["0"]
+                "antirequisites": ["MATH-1250"]
             },
-    "2":    {
+    "MATH-1720":    {
                 "name": "Differential Calculus",
-                "department": "1",
+                "department": "MATH",
                 "course_code": "1720",
                 "term": "",
-                "description": "This course will cover trigonometric functions and identities, inverse trigonometric functions, limits and
-                continuity, derivatives and applications, mean value theorem, indeterminate forms and l’Hôpital’s rule,
-                antiderivatives and an introduction to definite integrals. This course is for students who have taken both
-                Ontario Grade 12 Advanced Functions (MHF4U) and Ontario Grade 12 Calculus and Vectors (MCV4U).
-                Students who do not have credit for MCV4U should take MATH-1760. (Prerequisites: Ontario Grade 12
-                Advanced Functions (MHF4U) and Ontario Grade 12 Calculus and Vectors (MCV4U) or MATH-1780.)
-                (Antirequisite: MATH-1760.) (3 lecture hours, 1 tutorial hour per week.)",
+                "description": "This course will cover trigonometric functions and identities, inverse trigonometric functions, limits and continuity, derivatives and applications, mean value theorem, indeterminate forms and l’Hôpital’s rule, antiderivatives and an introduction to definite integrals. This course is for students who have taken both Ontario Grade 12 Advanced Functions (MHF4U) and Ontario Grade 12 Calculus and Vectors (MCV4U). Students who do not have credit for MCV4U should take MATH-1760. (Prerequisites: Ontario Grade 12 Advanced Functions (MHF4U) and Ontario Grade 12 Calculus and Vectors (MCV4U) or MATH-1780.) (Antirequisite: MATH-1760.) (3 lecture hours, 1 tutorial hour per week.)",
                 "prerequisites": [],
-                "antirequisites": ["4"]
+                "antirequisites": ["MATH-1760"]
             },
-    "3":    {
+    "MATH-1730":    {
                 "name": "Integral Calculus",
-                "department": "1",
+                "department": "MATH",
                 "course_code": "1730",
                 "term": "",
-                "description": "This course will cover antiderivatives, the definite integral and the fundamental theorem of calculus,
-                techniques of integration, applications, improper integrals, sequences and series, convergence tests,
-                power series, Taylor and Maclaurin series, and polar and parametric coordinates. (Prerequisite: MATH1760 or MATH-1720.) (3 lecture hours, 1 tutorial hour per week.)",
-                "prerequisites": ["or 2 4"],
+                "description": "This course will cover antiderivatives, the definite integral and the fundamental theorem of calculus, techniques of integration, applications, improper integrals, sequences and series, convergence tests, power series, Taylor and Maclaurin series, and polar and parametric coordinates. (Prerequisite: MATH1760 or MATH-1720.) (3 lecture hours, 1 tutorial hour per week.)",
+                "prerequisites": ["or MATH-1720 MATH-1760"],
                 "antirequisites": []
             },
-    "4":    {
+    "MATH-1760":    {
                 "name": "Functions and Differential Calculus",
-                "department": "1",
+                "department": "MATH",
                 "course_code": "1760",
                 "term": "",
-                "description": "This course will cover a review of functions, trigonometric functions and identities, transcendental
-                functions, inverse trigonometric functions, introduction to limits, continuity, derivatives and applications,
-                mean value theorem, indeterminate forms and l’Hôpital’s rule, antiderivatives and an introduction to
-                definite integrals. This course is for students who have taken Ontario Grade 12 Advanced Functions
-                (MHF4U), but have not taken Ontario Grade 12 Calculus and Vectors (MCV4U). Students who have credit
-                for MCV4U should take MATH-1720. The course is equivalent to MATH-1720 for all prerequisite purposes.
-                (Prerequisite: Ontario Grade 12Advanced Functions (MHF4U).) (Antirequisite: MATH-1720.) (4 lecture
-                hours, 1 tutorial hour per week.)",
+                "description": "This course will cover a review of functions, trigonometric functions and identities, transcendental functions, inverse trigonometric functions, introduction to limits, continuity, derivatives and applications, mean value theorem, indeterminate forms and l’Hôpital’s rule, antiderivatives and an introduction to definite integrals. This course is for students who have taken Ontario Grade 12 Advanced Functions (MHF4U), but have not taken Ontario Grade 12 Calculus and Vectors (MCV4U). Students who have credit for MCV4U should take MATH-1720. The course is equivalent to MATH-1720 for all prerequisite purposes. (Prerequisite: Ontario Grade 12Advanced Functions (MHF4U).) (Antirequisite: MATH-1720.) (4 lecture hours, 1 tutorial hour per week.)",
                 "prerequisites": [],
-                "antirequisites": ["2"]
+                "antirequisites": ["MATH-1720"]
             },
-    "5":    {
+    "MATH-1020":    {
                 "name": "Mathematical Foundations",
-                "department": "1",
+                "department": "MATH",
                 "course_code": "1020",
                 "term": "",
-                "description": "This course will cover mathematical logic, proof methods and development of proof techniques,
-                mathematical induction, sets, equivalence relations, partial ordering relations and functions.
-                (Prerequisite: One of COMP-1000, MATH-1250, MATH-1260 or MATH-1270.) (2 lecture hours, 2 tutorial
-                hours per week.)",
-                "prerequisites": ["or 7 0 1"],
+                "description": "This course will cover mathematical logic, proof methods and development of proof techniques, mathematical induction, sets, equivalence relations, partial ordering relations and functions. (Prerequisite: One of COMP-1000, MATH-1250, MATH-1260 or MATH-1270.) (2 lecture hours, 2 tutorial hours per week.)",
+                "prerequisites": ["or COMP-1000 MATH-1250 MATH-1260"],
                 "antirequisites": []
             },
-    "6":    {
+    "MATH-3940":    {
                 "name": "Numerical Analysis for Computer Scientists",
-                "department": "2",
+                "department": "MATH",
                 "course_code": "3940",
                 "term": "",
-                "description": "This course is an introduction to the applications of numerical methods using computer-oriented
-                algorithms such as finding roots, solving systems of equations, differentiation, integration and
-                optimization. (Restricted to students in Computer Science.) (Prerequisites: COMP-1410, MATH-1730 and
-                one of MATH-1250, MATH-1260 or MATH-1270.) (3 lecture hours per week)",
-                "prerequisites": ["10", "3", "or 0 1"],
+                "description": "This course is an introduction to the applications of numerical methods using computer-oriented algorithms such as finding roots, solving systems of equations, differentiation, integration and optimization. (Restricted to students in Computer Science.) (Prerequisites: COMP-1410, MATH-1730 and one of MATH-1250, MATH-1260 or MATH-1270.) (3 lecture hours per week)",
+                "prerequisites": ["COMP-1410", "MATH-1760", "or 0 1"],
                 "antirequisites": []
             },
-    "7":    {
+    "COMP-1000":    {
                 "name": "Key Concepts in Computer Science",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "1000",
                 "term": "",
-                "description": "The objectives of this course are to excite students' interest in computer science and to give students a
-                precise understanding of a number of difficult concepts that are fundamental to modern computer
-                science. Topics may include: induction and recursion; algebraic characterization; syntax; semantics;
-                formal logic; soundness, completeness, and decidability; specification, algorithm, and determinism;
-                complexity. (Restricted to students registered in programs offered wholly or jointly by Computer Science
-                or by Mathematics and Statistics, or with approval of Computer Science.) (3 lecture hours and 1.5
-                laboratory hours a week).",
+                "description": "The objectives of this course are to excite students' interest in computer science and to give students a precise understanding of a number of difficult concepts that are fundamental to modern computer science. Topics may include: induction and recursion; algebraic characterization; syntax; semantics; formal logic; soundness, completeness, and decidability; specification, algorithm, and determinism; complexity. (Restricted to students registered in programs offered wholly or jointly by Computer Science or by Mathematics and Statistics, or with approval of Computer Science.) (3 lecture hours and 1.5 laboratory hours a week).",
                 "prerequisites": [],
                 "antirequisites": []
             },
-    "8":    {
+    "COMP-1047":    {
                 "name": "Computer Concepts for End-Users",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "1047",
                 "term": "",
-                "description": "Introduction to the concepts of operation of a computer system, including hardware and software.
-                Development of conceptual understanding of word processors, databases, spreadsheets, etc., and
-                practical experience with their use. Networking concepts and data communication concepts will be
-                introduced. The Internet will be introduced with students having access to internet resources.
-                Management information systems including the systems development lifecycle will be discussed.
-                Fundamental concepts of algorithm development and programming will be introduced. Hands-on
-                experience with microcomputers as well as a distributed-computing environment will be involved. In
-                addition to lecture time, laboratory/tutorial time may be scheduled as required. (May not be used to
-                fulfill the major requirements of any major or joint major in Computer Science.) (3 lecture hours).",
-                "prerequisites": [""],
+                "description": "Introduction to the concepts of operation of a computer system, including hardware and software. Development of conceptual understanding of word processors, databases, spreadsheets, etc., and practical experience with their use. Networking concepts and data communication concepts will be introduced. The Internet will be introduced with students having access to internet resources. Management information systems including the systems development lifecycle will be discussed. Fundamental concepts of algorithm development and programming will be introduced. Hands-on experience with microcomputers as well as a distributed-computing environment will be involved. In addition to lecture time, laboratory/tutorial time may be scheduled as required. (May not be used to fulfill the major requirements of any major or joint major in Computer Science.) (3 lecture hours).",
+                "prerequisites": [],
                 "antirequisites": []
             },
-    "9":    {
+    "COMP-1400":    {
                 "name": "Introduction to Algorithms and Programming I",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "1400",
                 "term": "",
-                "description": "This course is the first of a two-course sequence designed to introduce students to algorithm design and
-                programming in a high-level language such as C. The main objectives of the course are to develop the
-                ability to identify, understand and design solutions to a wide variety of problems. Topics include:
-                computer system overview, hardware and software, problem solving steps, concepts of variables,
-                constants, data types, algorithmic structure, sequential logic, decisions, loops, modular programming,
-                one-dimensional arrays, text files. If possible, problems like searching/sorting will be addressed. (3
-                lecture hours and 1.5 laboratory hours a week).",
-                "prerequisites": [""],
+                "description": "This course is the first of a two-course sequence designed to introduce students to algorithm design and programming in a high-level language such as C. The main objectives of the course are to develop the ability to identify, understand and design solutions to a wide variety of problems. Topics include: computer system overview, hardware and software, problem solving steps, concepts of variables, constants, data types, algorithmic structure, sequential logic, decisions, loops, modular programming, one-dimensional arrays, text files. If possible, problems like searching/sorting will be addressed. (3 lecture hours and 1.5 laboratory hours a week).",
+                "prerequisites": [],
                 "antirequisites": []
             },
-    "10":    {
+    "COMP-1410":    {
                 "name": "Introduction to Algorithms and Programming II",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "1410",
                 "term": "",
-                "description": "This course is the continuation of COMP-1400 that introduces students to more advanced algorithm
-                design and programming in a high level language such as C. The main objectives of the course are to
-                develop the ability to identify, understand, and design solutions to a wide variety of problems. Topics
-                covered include: multi-dimensional arrays, pointers, strings, advanced modular programming, records,
-                binary files, recursion, stacks, linked lists and introduction to algorithm analysis. (Prerequisite: COMP1000 (or MATH-1720) and COMP-1400.)
-                (3 lecture and 1.5 laboratory hours a week).",
-                "prerequisites": ["or 7 2", "9"],
+                "description": "This course is the continuation of COMP-1400 that introduces students to more advanced algorithm design and programming in a high level language such as C. The main objectives of the course are to develop the ability to identify, understand, and design solutions to a wide variety of problems. Topics covered include: multi-dimensional arrays, pointers, strings, advanced modular programming, records, binary files, recursion, stacks, linked lists and introduction to algorithm analysis. (Prerequisite: COMP1000 (or MATH-1720) and COMP-1400.) (3 lecture and 1.5 laboratory hours a week).",
+                "prerequisites": ["or COMP-1000 MATH-1720", "COMP-1400"],
                 "antirequisites": []
             },
-    "11":    {
+    "COMP-2057":    {
                 "name": "Introduction to the Internet",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "2057",
                 "term": "",
-                "description": "Students will be introduced to the Internet as a global information infrastructure, including fundamental
-                concepts in protocols and services, packaging of data, and data transmission. Common tools and
-                multimedia such as HTML, CSS, and CMS, used for the development of websites will also be introduced.
-                Web page design, quality, accessibility and security issues will be discussed. How Web browsers and
-                search engines work will be demonstrated. Social networks and other current Internet applications will
-                be examined. In addition to lecture time, laboratory/ tutorial time may be scheduled as required. (Prerequisite: COMP-1047 or COMP-2067 or COMP-1400.) (May not be used to fulfill the major
-                requirements of any major or joint major in Computer Science.) (3 lecture hours a week).",
-                "prerequisites": ["or 8 12 9"],
+                "description": "Students will be introduced to the Internet as a global information infrastructure, including fundamental concepts in protocols and services, packaging of data, and data transmission. Common tools and multimedia such as HTML, CSS, and CMS, used for the development of websites will also be introduced. Web page design, quality, accessibility and security issues will be discussed. How Web browsers and search engines work will be demonstrated. Social networks and other current Internet applications will be examined. In addition to lecture time, laboratory/ tutorial time may be scheduled as required. (Prerequisite: COMP-1047 or COMP-2067 or COMP-1400.) (May not be used to fulfill the major requirements of any major or joint major in Computer Science.) (3 lecture hours a week).",
+                "prerequisites": ["or COMP-1047 COMP-2067 COMP-1400"],
                 "antirequisites": []
             },
-    "12":    {
+    "COMP-2067":    {
                 "name": "Programming for Beginners",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "2067",
                 "term": "",
-                "description": "This course introduces fundamental computer programming principles and structured programming
-                concepts, with an emphasis on good programming. Stages of the software development cycles are
-                introduced: analysis, design, implementation, debugging and deployment. May not be used to fulfill the
-                major requirements of any major or joint major in Computer Science.) (3 lecture hours).",
+                "description": "This course introduces fundamental computer programming principles and structured programming concepts, with an emphasis on good programming. Stages of the software development cycles are introduced: analysis, design, implementation, debugging and deployment. May not be used to fulfill the major requirements of any major or joint major in Computer Science.) (3 lecture hours).",
                 "prerequisites": [],
                 "antirequisites": []
             },
-    "13":    {
+    "COMP-2077":    {
                 "name": "Problem Solving and Information on the Internet",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "2077",
                 "term": "",
-                "description": "Students will be introduced to logic and critical appraisals including reasoning skills and critical thinking in
-                the computer age. Problem solving and heuristics will be discussed including how to solve problems by
-                coming up with the right strategies. Searching using Boolean logic to pinpoint useful and reliable
-                information will be introduced. Methods for being self-critical and critical of web information in order to
-                perform evaluations will be studied. (Prerequisites COMP-1047 and COMP-2057.) (This course may not
-                be taken to fulfill the major requirements of any major or joint major in Computer Science.) (3 lecture
-                hours a week).",
-                "prerequisites": ["8", "11"],
+                "description": "Students will be introduced to logic and critical appraisals including reasoning skills and critical thinking in the computer age. Problem solving and heuristics will be discussed including how to solve problems by coming up with the right strategies. Searching using Boolean logic to pinpoint useful and reliable information will be introduced. Methods for being self-critical and critical of web information in order to perform evaluations will be studied. (Prerequisites COMP-1047 and COMP-2057.) (This course may not be taken to fulfill the major requirements of any major or joint major in Computer Science.) (3 lecture hours a week).",
+                "prerequisites": ["COMP-1047", "COMP-2057"],
                 "antirequisites": []
             },
-    "14":    {
+    "COMP-2087":    {
                 "name": "Programming for Beginners II",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "2087",
                 "term": "",
-                "description": "This course is the continuation of COMP-2067 that introduces students to more advanced algorithm
-                design and programming using Python. The main objectives of the course are to develop the ability to
-                identify, understand, and design solutions to a wide variety of problems. Topics covered include: lists,
-                dictionaries and files, functions and modules, testing and exception handling and object oriented
-                approach. (Prerequisite: COMP-2067) (3 lecture hours a week).",
-                "prerequisites": ["12"],
+                "description": "This course is the continuation of COMP-2067 that introduces students to more advanced algorithm design and programming using Python. The main objectives of the course are to develop the ability to identify, understand, and design solutions to a wide variety of problems. Topics covered include: lists, dictionaries and files, functions and modules, testing and exception handling and object oriented approach. (Prerequisite: COMP-2067) (3 lecture hours a week).",
+                "prerequisites": ["COMP-2067"],
                 "antirequisites": []
             },
-    "15":    {
+    "COMP-2097":    {
                 "name": "Social Media Marketing for End Users",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "2097",
                 "term": "",
-                "description": "This course provides review, analysis and use of social media and mobile technologies such as Instagram
-                (tm), Facebook (tm), twitter (tm) LinkedIn (tm), texting, and using mobile devices such as laptops, ios
-                (tm) devices, and Android devices. Topics to be covered include: a comprehensive review of available
-                social media and mobile technology, use of social media and mobile technology for sharing of knowledge
-                and for group interaction, security and privacy, ethical principles in social media, methods for analyzing
-                end-user requirements for a social media application, strategies for designing, implementing, and
-                maintaining an ethically-sound social media campaign, and measurement and assessment of social media
-                analytics using industry standard tools and techniques. (This course may not be taken to fulfill the major
-                requirements of any major or joint major in Computer Science.) (3 lecture hours).",
+                "description": "This course provides review, analysis and use of social media and mobile technologies such as Instagram (tm), Facebook (tm), twitter (tm) LinkedIn (tm), texting, and using mobile devices such as laptops, ios (tm) devices, and Android devices. Topics to be covered include: a comprehensive review of available social media and mobile technology, use of social media and mobile technology for sharing of knowledge and for group interaction, security and privacy, ethical principles in social media, methods for analyzing end-user requirements for a social media application, strategies for designing, implementing, and maintaining an ethically-sound social media campaign, and measurement and assessment of social media analytics using industry standard tools and techniques. (This course may not be taken to fulfill the major requirements of any major or joint major in Computer Science.) (3 lecture hours).",
                 "prerequisites": [],
                 "antirequisites": []
             },
-    "16":    {
+    "COMP-2120":    {
                 "name": "Object-Oriented Programming Using Java",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "2120",
                 "term": "",
-                "description": "Concepts of classes and objects, Java applications, frames, event handling, control structures, methods,
-                arrays, string manipulations, object-based programming, object-oriented programming - inheritance,
-                polymorphism, interface and abstract classes, anonymous classes, data structures in Java, exception
-                handling, introduction to graphical user interface. (Prerequisite: COMP-1410.) (3 lecture hours and 1.5
-                laboratory hours a week)",
-                "prerequisites": ["10"],
+                "description": "Concepts of classes and objects, Java applications, frames, event handling, control structures, methods, arrays, string manipulations, object-based programming, object-oriented programming - inheritance, polymorphism, interface and abstract classes, anonymous classes, data structures in Java, exception handling, introduction to graphical user interface. (Prerequisite: COMP-1410.) (3 lecture hours and 1.5 laboratory hours a week)",
+                "prerequisites": ["COMP-1410"],
                 "antirequisites": []
             },
-    "17":    {
+    "COMP-2140":    {
                 "name": "Computer Languages, Grammars, and Translators",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "2140",
                 "term": "",
-                "description": "Pragmatic and theoretical aspects of grammars, recognizers, and translators for computer languages will
-                be discussed. The topics covered will include regular languages and context-free languages, including
-                parsers and parser generators for such languages. Attribute grammars, syntax-directed translation,
-                interpreters and compilers will also be discussed. (Prerequisite: COMP-1000 and COMP-2120.) (3 lecture
-                hours and 1.5 laboratory hours a week) ",
-                "prerequisites": ["7", "16"],
+                "description": "Pragmatic and theoretical aspects of grammars, recognizers, and translators for computer languages will be discussed. The topics covered will include regular languages and context-free languages, including parsers and parser generators for such languages. Attribute grammars, syntax-directed translation, interpreters and compilers will also be discussed. (Prerequisite: COMP-1000 and COMP-2120.) (3 lecture hours and 1.5 laboratory hours a week) ",
+                "prerequisites": ["COMP-1000", "COMP-2120"],
                 "antirequisites": []
             },
-    "18":    {
+    "COMP-2310":    {
                 "name": "Theoretical Foundations of Computer Science",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "2310",
                 "term": "",
-                "description": "An introduction to Mathematical Logic, Set Theory, and Graph Theory. Topics include propositional logic,
-                first order logic, proof techniques, mathematical induction, sets, operations on sets, relations, operations
-                on relations, functions, countable and uncountable sets, graph-theoretic concepts, such as graph
-                connectivity, graph isomorphism, trees, Euler graphs. (Restricted to students in Computer Science.)
-                (Prerequisite: COMP-1000 and MATH-1020.) (3 lecture hours and 1.5 laboratory hours a week)",
-                "prerequisites": ["7", "5"],
+                "description": "An introduction to Mathematical Logic, Set Theory, and Graph Theory. Topics include propositional logic, first order logic, proof techniques, mathematical induction, sets, operations on sets, relations, operations on relations, functions, countable and uncountable sets, graph-theoretic concepts, such as graph connectivity, graph isomorphism, trees, Euler graphs. (Restricted to students in Computer Science.) (Prerequisite: COMP-1000 and MATH-1020.) (3 lecture hours and 1.5 laboratory hours a week)",
+                "prerequisites": ["COMP-1000", "MATH-1020"],
                 "antirequisites": []
             },
-    "19":    {
+    "COMP-2540":    {
                 "name": "Data Structures and Algorithms",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "2540",
                 "term": "",
-                "description": "An introduction to the programming and analysis of linear and non-linear internal (main store) data
-                structures and associated algorithms. Topics include the formal notion of an algorithm, elementary time
-                and space complexity; linear lists (such as stacks, queues, linked structures.); non-linear lists (trees,
-                binary trees); recursion; sorting techniques (such as heap sort, quick sort, merge sort, shell sort.);
-                searching techniques (such as binary search, binary search trees, red-black trees, hashing.); algorithm
-                design paradigms (such as divide-and-conquer, dynamic programming, greedy algorithms); and
-                applications. (Prerequisite: COMP-1000 and COMP-1410. Restricted to Computer Science students or
-                permission of the School of Computer Science.) (3 lecture hours and 1.5 laboratory hours a week.) ",
-                "prerequisites": ["7", "10"],
+                "description": "An introduction to the programming and analysis of linear and non-linear internal (main store) data structures and associated algorithms. Topics include the formal notion of an algorithm, elementary time and space complexity; linear lists (such as stacks, queues, linked structures.); non-linear lists (trees, binary trees); recursion; sorting techniques (such as heap sort, quick sort, merge sort, shell sort.); searching techniques (such as binary search, binary search trees, red-black trees, hashing.); algorithm design paradigms (such as divide-and-conquer, dynamic programming, greedy algorithms); and applications. (Prerequisite: COMP-1000 and COMP-1410. Restricted to Computer Science students or permission of the School of Computer Science.) (3 lecture hours and 1.5 laboratory hours a week.) ",
+                "prerequisites": ["COMP-1000", "COMP-1410"],
                 "antirequisites": []
             },
-    "20":    {
+    "COMP-2547":    {
                 "name": "Applied Algorithms and Data Structures",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "2547",
                 "term": "",
-                "description": "An introduction to the programming and analysis of linear and non-linear internal (main store) data
-                structures and associated algorithms . Topics include linear lists (such as stacks, queues, linked
-                structures.); non-linear lists (trees, binary trees); recursion; sorting techniques (such as heap sort,
-                quick sort, merge sort, shell sort.); searching techniques (such as binary search, binary search trees,
-                red-black trees, hashing.); algorithm design approaches such as divide-and-conquer, dynamic
-                programming, greedy algorithms; and applications (Prerequisite: COMP-1000 and COMP-2087.
-                Antirequisite: COMP-2540) (3 lecture hours a week).",
-                "prerequisites": ["7", "14", "19"],
+                "description": "An introduction to the programming and analysis of linear and non-linear internal (main store) data structures and associated algorithms . Topics include linear lists (such as stacks, queues, linked structures.); non-linear lists (trees, binary trees); recursion; sorting techniques (such as heap sort, quick sort, merge sort, shell sort.); searching techniques (such as binary search, binary search trees, red-black trees, hashing.); algorithm design approaches such as divide-and-conquer, dynamic programming, greedy algorithms; and applications (Prerequisite: COMP-1000 and COMP-2087. Antirequisite: COMP-2540) (3 lecture hours a week).",
+                "prerequisites": ["COMP-1000", "COMP-2087", "COMP-2540"],
                 "antirequisites": []
             },
-    "21":    {
+    "COMP-2560":    {
                 "name": "Systems Programming",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "2560",
                 "term": "",
-                "description": "This course introduces students to advanced software development techniques in system programming
-                using the C language in the UNIX environment. Topics include introduction to modern operating systems,
-                system calls, managing processes, the use of fork and exec, signals, file processing, filters, pipes, scripting
-                languages, introduction to concurrency (e.g. synchronization), network programming (e.g. using sockets),
-                client-server problems. (Prerequisite: COMP-1410.)(3 lecture hours and 1.5 laboratory hours a week) ",
-                "prerequisites": ["10"],
+                "description": "This course introduces students to advanced software development techniques in system programming using the C language in the UNIX environment. Topics include introduction to modern operating systems, system calls, managing processes, the use of fork and exec, signals, file processing, filters, pipes, scripting languages, introduction to concurrency (e.g. synchronization), network programming (e.g. using sockets), client-server problems. (Prerequisite: COMP-1410.)(3 lecture hours and 1.5 laboratory hours a week) ",
+                "prerequisites": ["COMP-1410"],
                 "antirequisites": []
             },
-    "22":    {
+    "COMP-2650":    {
                 "name": "Computer Architecture I: Digital Design",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "2650",
                 "term": "",
-                "description": "This course covers fundamental concepts of digital design and CPU architecture. Topics covered include
-                number systems, switching algebra, logic gates, circuit minimization combinational circuit, read-only
-                memory, random-access memory, programmable logic, synchronous and asynchronous sequential
-                circuits, latches, flip-flops, registers, counters, register transfer language. and CPU architecture overview.
-                (Prerequisite: COMP-1400) (3 lecture hours and 1.5 laboratory hours a week) ",
-                "prerequisites": ["9"],
+                "description": "This course covers fundamental concepts of digital design and CPU architecture. Topics covered include number systems, switching algebra, logic gates, circuit minimization combinational circuit, read-only memory, random-access memory, programmable logic, synchronous and asynchronous sequential circuits, latches, flip-flops, registers, counters, register transfer language. and CPU architecture overview. (Prerequisite: COMP-1400) (3 lecture hours and 1.5 laboratory hours a week) ",
+                "prerequisites": ["COMP-1400"],
                 "antirequisites": []
             },
-    "23":    {
+    "COMP-2660":    {
                 "name": "Computer Architecture II: Microprocessor Programming",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "2660",
                 "term": "",
-                "description": "This course uses microprocessor programming to explore the structure of a CPU and related
-                 components. Topics include data representation, central processing unit, arithmetic logic unit, control
-                unit, assembly language concepts, memory segmentation, programming a typical microprocessor (e.g.
-                Intel processors), instruction set architecture-addressing modes and formats, register set, runtime stack,
-                floating point processor. (Prerequisite: COMP-2650). (3 lecture hours and 1.5 laboratory hours a week) ",
-                "prerequisites": ["22"],
+                "description": "This course uses microprocessor programming to explore the structure of a CPU and related components. Topics include data representation, central processing unit, arithmetic logic unit, control unit, assembly language concepts, memory segmentation, programming a typical microprocessor (e.g. Intel processors), instruction set architecture-addressing modes and formats, register set, runtime stack, floating point processor. (Prerequisite: COMP-2650). (3 lecture hours and 1.5 laboratory hours a week) ",
+                "prerequisites": ["COMP-2650"],
                 "antirequisites": []
             },
-    "24":    {
+    "COMP-2707":    {
                 "name": "Advanced Web Design, Construction, and Deployment",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "2707",
                 "term": "",
-                "description": "This course is intended to teach the student about advanced website creation and to give an
-                understanding of some of the technology behind websites, as well as an understanding of emerging webrelated technologies. Topics covered will include JavaScript, Style Sheets, Dynamic HTML, XML, XHTML,
-                Web Browser compatibility issues, and how web servers work. (Prerequisite: COMP-2057.) (This course
-                may not be taken to fulfill the major requirements of any major or joint major in Computer Science.) (3
-                lecture hours a week) ",
-                "prerequisites": ["11"],
+                "description": "This course is intended to teach the student about advanced website creation and to give an understanding of some of the technology behind websites, as well as an understanding of emerging webrelated technologies. Topics covered will include JavaScript, Style Sheets, Dynamic HTML, XML, XHTML, Web Browser compatibility issues, and how web servers work. (Prerequisite: COMP-2057.) (This course may not be taken to fulfill the major requirements of any major or joint major in Computer Science.) (3 lecture hours a week) ",
+                "prerequisites": ["COMP-2057"],
                 "antirequisites": []
             },
-    "25":    {
+    "COMP-2750":    {
                 "name": "Selected Topics",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "2750",
                 "term": "",
-                "description": "Topics may differ from year to year. (Prerequisite: COMP-1000 or MATH-1720, and COMP-1410.) (May
-                be repeated for credit if content changes.) (3 lecture hours or equivalent.)",
-                "prerequisites": ["or 7 2", "10"],
+                "description": "Topics may differ from year to year. (Prerequisite: COMP-1000 or MATH-1720, and COMP-1410.) (May be repeated for credit if content changes.) (3 lecture hours or equivalent.)",
+                "prerequisites": ["or COMP-1000 MATH-1720", "COMP-1410"],
                 "antirequisites": []
             },
-    "26":    {
+    "COMP-2800":    {
                 "name": "Software Development",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "2800",
                 "term": "",
-                "description": "This is a software development course to advance students' programming skills and to introduce basic
-                software engineering concepts and techniques through practice. Topics for advancing programming
-                skills to be covered include event-driven programming and advanced GUI design, concurrent
-                programming techniques, reflection and inter-process communication. Basic software engineering topics
-                include requirements analysis and design, medium sized project management, and automated software
-                engineering tool development. (Prerequisite: COMP-2120.) (3 lecture hours and 1.5 laboratory hours a
-                week.)",
-                "prerequisites": ["16"],
+                "description": "This is a software development course to advance students' programming skills and to introduce basic software engineering concepts and techniques through practice. Topics for advancing programming skills to be covered include event-driven programming and advanced GUI design, concurrent programming techniques, reflection and inter-process communication. Basic software engineering topics include requirements analysis and design, medium sized project management, and automated software engineering tool development. (Prerequisite: COMP-2120.) (3 lecture hours and 1.5 laboratory hours a week.)",
+                "prerequisites": ["COMP-2120"],
                 "antirequisites": []
             },
-    "27":    {
+    "COMP-2980":    {
                 "name": "Co-op Work Term I",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "2980",
                 "term": "",
-                "description": "Supervised experience in an approved career-related setting with a focus on the application of theory
-                and the development of transferable skills. The Co-op work experience is designed to provide students
-                with an enriched learning opportunity to integrate academic theory and concepts in an applied setting.
-                (Prerequisite: Student must be enrolled in a Co-operative education program. Offered on a Pass/nonPass basis. Supervised practicum requires the successful completion of a minimum of 420 hours.
-                Students who do not pass the course cannot continue in the Co-op program.) (This is an experiential
-                learning course.)",
+                "description": "Supervised experience in an approved career-related setting with a focus on the application of theory and the development of transferable skills. The Co-op work experience is designed to provide students with an enriched learning opportunity to integrate academic theory and concepts in an applied setting. (Prerequisite: Student must be enrolled in a Co-operative education program. Offered on a Pass/nonPass basis. Supervised practicum requires the successful completion of a minimum of 420 hours. Students who do not pass the course cannot continue in the Co-op program.) (This is an experiential learning course.)",
                 "prerequisites": [],
                 "antirequisites": []
             },
-    "28":    {
+    "COMP-3037":    {
                 "name": "Information Security for IT",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3037",
                 "term": "",
-                "description": "The course focuses on practical topics in information security that are encountered on a regular basis in
-                the information technology ecosystem. The course discusses practical security problems and guidelines
-                to help the user of information technology to make sound security decisions. Topics covered in this
-                course include security policies, access controls, e-mail security, database security, WWW security, social
-                network security, computer virus, and wireless network security. (Prerequisite: COMP-2057 or COMP2067) (3 lecture hours).",
-                "prerequisites": ["or 11 12"],
+                "description": "The course focuses on practical topics in information security that are encountered on a regular basis in the information technology ecosystem. The course discusses practical security problems and guidelines to help the user of information technology to make sound security decisions. Topics covered in this course include security policies, access controls, e-mail security, database security, WWW security, social network security, computer virus, and wireless network security. (Prerequisite: COMP-2057 or COMP2067) (3 lecture hours).",
+                "prerequisites": ["or COMP-2057 COMP-2067"],
                 "antirequisites": []
             },
-    "29":    {
+    "COMP-3057":    {
                 "name": "Cyber-Ethics",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3057",
                 "term": "",
-                "description": "A number of key concerns about social welfare in our cyber age will be explored. Law, morality, public
-                policy, and how these both influence and are influenced by the Internet will be examined. This course
-                will critically appraise issues surrounding, but not limited to, free speech, property rights (especially
-                intellectual property), privacy, security, and artificial intelligence. Issues raised by ethical theorists, policy
-                makers, legal experts, and computer scientists will be analyzed in this course. (Prerequisites: COMP-1047
-                and COMP-2057.) (This course may not be taken to fulfill the major requirements of any major or joint
-                major in Computer Science.)(3 lecture hours a week)",
-                "prerequisites": ["8", "11"],
+                "description": "A number of key concerns about social welfare in our cyber age will be explored. Law, morality, public policy, and how these both influence and are influenced by the Internet will be examined. This course will critically appraise issues surrounding, but not limited to, free speech, property rights (especially intellectual property), privacy, security, and artificial intelligence. Issues raised by ethical theorists, policy makers, legal experts, and computer scientists will be analyzed in this course. (Prerequisites: COMP-1047 and COMP-2057.) (This course may not be taken to fulfill the major requirements of any major or joint major in Computer Science.)(3 lecture hours a week)",
+                "prerequisites": ["COMP-1047", "COMP-2057"],
                 "antirequisites": []
             },
-    "30":    {
+    "COMP-3067":    {
                 "name": "Applied Databases",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3067",
                 "term": "",
-                "description": "This course will acquaint students with the basic concepts and application of relational database
-                systems. The topic covered will include 3-level architecture, relational bases, Structured Query Language (SQL) and query formulation, and normalization concepts. (Prerequisite: COMP-2547) (3
-                lecture hours a week).",
-                "prerequisites": ["20"],
+                "description": "This course will acquaint students with the basic concepts and application of relational database systems. The topic covered will include 3-level architecture, relational bases, Structured Query Language (SQL) and query formulation, and normalization concepts. (Prerequisite: COMP-2547) (3 lecture hours a week).",
+                "prerequisites": ["COMP-2547"],
                 "antirequisites": []
             },
-    "31":    {
+    "COMP-3077":    {
                 "name": "Web-Based Data Management",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3077",
                 "term": "",
-                "description": "This non-major course is intended to teach students how to design and build interactive data-driven Web
-                sites, by extending their knowledge of relevant programming concepts and techniques introduced in
-                COMP-2707, and introducing new tools and techniques. Students will learn advanced use of PHP and
-                MySQL to build objects and “glue” them together using protocols such as JSON, code libraries such as
-                AJAX and jQuery, and learn how to incorporate API’s from Web service providers such as Google Maps.
-                (Prerequisite: COMP-2707). (This course may not be taken to fulfill the major requirements of any major
-                or joint major in Computer Science.) (3 lecture hours a week.)",
-                "prerequisites": ["24"],
+                "description": "This non-major course is intended to teach students how to design and build interactive data-driven Web sites, by extending their knowledge of relevant programming concepts and techniques introduced in COMP-2707, and introducing new tools and techniques. Students will learn advanced use of PHP and MySQL to build objects and “glue” them together using protocols such as JSON, code libraries such as AJAX and jQuery, and learn how to incorporate API’s from Web service providers such as Google Maps. (Prerequisite: COMP-2707). (This course may not be taken to fulfill the major requirements of any major or joint major in Computer Science.) (3 lecture hours a week.)",
+                "prerequisites": ["COMP-2707"],
                 "antirequisites": []
             },
-    "32":    {
+    "COMP-3110":    {
                 "name": "Introduction to Software Engineering",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3110",
                 "term": "",
-                "description": "This course introduces the fundamental concepts, common principles, and general techniques of
-                software engineering. It discusses the main issues involved in the development life-cycle of nontrivial
-                software systems, including process models, feasibility studies, requirements elicitation and definition,
-                rapid prototyping, design methodologies, verification and validation, and software evolution. Students
-                taking this course are required to work on projects, which are designed to go through the major phases
-                of large-scale software system development. (Prerequisite: COMP-2120 and COMP-2540.)(3 lecture
-                hours a week)",
-                "prerequisites": ["16", "19"],
+                "description": "This course introduces the fundamental concepts, common principles, and general techniques of software engineering. It discusses the main issues involved in the development life-cycle of nontrivial software systems, including process models, feasibility studies, requirements elicitation and definition, rapid prototyping, design methodologies, verification and validation, and software evolution. Students taking this course are required to work on projects, which are designed to go through the major phases of large-scale software system development. (Prerequisite: COMP-2120 and COMP-2540.)(3 lecture hours a week)",
+                "prerequisites": ["COMP-2120", "COMP-2540"],
                 "antirequisites": []
             },
-    "33":    {
+    "COMP-3150":    {
                 "name": "Database Management Systems",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3150",
                 "term": "",
-                "description": "This course will acquaint students with the Basic concepts of Database Systems. The topics covered will
-                include 3-level architecture, introduction to file structures: B-trees, B+ Trees and Hashed files, relational
-                model, relational algebra and calculus, SQL, and database design with Normalization Theory.
-                (Prerequisite: COMP-2540 and COMP-2560 or COMP-2650.) (3 lecture hours a week)",
-                "prerequisites": ["19" "or 21 22"],
+                "description": "This course will acquaint students with the Basic concepts of Database Systems. The topics covered will include 3-level architecture, introduction to file structures: B-trees, B+ Trees and Hashed files, relational model, relational algebra and calculus, SQL, and database design with Normalization Theory. (Prerequisite: COMP-2540 and COMP-2560 or COMP-2650.) (3 lecture hours a week)",
+                "prerequisites": ["COMP-2540", "or COMP-2560 COMP-2650"],
                 "antirequisites": []
             },
-    "34":    {
+    "COMP-3220":    {
                 "name": "Object-Oriented Software Analysis and Design",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3220",
                 "term": "",
-                "description": "This course builds on the knowledge of object-oriented programming, data structures, systems
-                programming. Students are introduced to object-oriented software analysis and design concepts (such as
-                cohesion and coupling), and design practices currently used in industry , (such as design patterns and
-                refactoring). These concepts and practices will be discussed through case studies and programming
-                exercises. (Prerequisite: COMP-2120 and COMP-2540)(3 lecture hours a week)",
-                "prerequisites": ["16", "19"],
+                "description": "This course builds on the knowledge of object-oriented programming, data structures, systems programming. Students are introduced to object-oriented software analysis and design concepts (such as cohesion and coupling), and design practices currently used in industry , (such as design patterns and refactoring). These concepts and practices will be discussed through case studies and programming exercises. (Prerequisite: COMP-2120 and COMP-2540)(3 lecture hours a week)",
+                "prerequisites": ["COMP-2120", "COMP-2540"],
                 "antirequisites": []
             },
-    "35":    {
+    "COMP-3250":    {
                 "name": "Data Analytics I",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3250",
                 "term": "",
-                "description": "This course covers techniques for quantitative and qualitative data analysis and visualization of big data.
-                It focuses on statistics for model building and evaluation. Topics include experimental research,
-                correlation analysis, regression, and group comparisons. Students will learn how to utilize real datasets
-                with graphs and numerical measures and work with unstructured data like texts and images.
-                (Prerequisite: COMP-2547 (or COMP-2540) and STAT-2910) (3 lecture hours)",
-                "prerequisites": ["or 19 20", "36"],
+                "description": "This course covers techniques for quantitative and qualitative data analysis and visualization of big data. It focuses on statistics for model building and evaluation. Topics include experimental research, correlation analysis, regression, and group comparisons. Students will learn how to utilize real datasets with graphs and numerical measures and work with unstructured data like texts and images. (Prerequisite: COMP-2547 (or COMP-2540) and STAT-2910) (3 lecture hours)",
+                "prerequisites": ["or COMP-2547 COMP-2540", "STAT-2910"],
                 "antirequisites": []
             },
-    "36":    {
+    "STAT-2910":    {
                 "name": "Statistics for the Sciences",
-                "department": "2",
+                "department": "STAT",
                 "course_code": "2910",
                 "term": "",
-                "description": "This course will cover descriptive statistics, probability, discrete and continuous distributions, point and
-                interval estimation, hypothesis testing, goodness-of-fit and contingency tables. (Prerequisite: Grade 12
-                “U” Advanced Level Mathematics (MHF4U, MCV4U, MDM4U) or Grade 11 Functions and Applications
-                (MCF3M) or Grade 11 Functions (MCR3U).) (Course equivalencies and antirequisites as stated in the
-                University of Windsor Senate Policy on Introductory Statistics Courses.) (May not be taken for credit after
-                taking STAT-2920 or STAT-2950.) (3 lecture hours, 1 tutorial hour per week.) ",
-                "prerequisites": [""],
+                "description": "This course will cover descriptive statistics, probability, discrete and continuous distributions, point and interval estimation, hypothesis testing, goodness-of-fit and contingency tables. (Prerequisite: Grade 12 “U” Advanced Level Mathematics (MHF4U, MCV4U, MDM4U) or Grade 11 Functions and Applications (MCF3M) or Grade 11 Functions (MCR3U).) (Course equivalencies and antirequisites as stated in the University of Windsor Senate Policy on Introductory Statistics Courses.) (May not be taken for credit after taking STAT-2920 or STAT-2950.) (3 lecture hours, 1 tutorial hour per week.) ",
+                "prerequisites": [],
                 "antirequisites": []
             },
-    "37":    {
+    "COMP-3300":    {
                 "name": "Operating Systems Fundamentals",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3300",
                 "term": "",
-                "description": "Operating system services, introduction to primary components of multi-programming operating
-                systems, CPU scheduling, concurrent processes, process synchronization and interprocess
-                communication, deadlocks, memory management, file systems, virtual memory, disk scheduling.
-                (Prerequisite: COMP-2120, COMP-2540, COMP-2560, and COMP-2650 or COMP-2660.)(3 lecture hours a
-                week) ",
-                "prerequisites": ["16", "19", "21", "or 22 23"],
+                "description": "Operating system services, introduction to primary components of multi-programming operating systems, CPU scheduling, concurrent processes, process synchronization and interprocess communication, deadlocks, memory management, file systems, virtual memory, disk scheduling. (Prerequisite: COMP-2120, COMP-2540, COMP-2560, and COMP-2650 or COMP-2660.)(3 lecture hours a week) ",
+                "prerequisites": ["COMP-2120", "COMP-2540", "COMP-2560", "or COMP-2650 COMP-2660 23"],
                 "antirequisites": []
             },
-    "38":    {
+    "COMP-3340":    {
                 "name": "World Wide Web Information Systems Development",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3340",
                 "term": "",
-                "description": "This course is designed for people who want to make their data available to others over the Internet.
-                Topics will include WWW authoring, WWW site planning, executable programs that create dynamic
-                documents, the client-server model, multi-tier WWW software architecture, and security aspects.
-                (Prerequisite: COMP-2120 and COMP-2540.) (3 lecture hours a week)",
-                "prerequisites": ["16", "19"],
+                "description": "This course is designed for people who want to make their data available to others over the Internet. Topics will include WWW authoring, WWW site planning, executable programs that create dynamic documents, the client-server model, multi-tier WWW software architecture, and security aspects. (Prerequisite: COMP-2120 and COMP-2540.) (3 lecture hours a week)",
+                "prerequisites": ["COMP-2120", "COMP-2540"],
                 "antirequisites": []
             },
-    "39":    {
+    "COMP-3400":    {
                 "name": "Advanced Object Oriented System Design Using C++",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3400",
                 "term": "",
-                "description": "The main objective of this course is to explore advanced topics of the object oriented paradigm through
-                the use of the C++ programming language. Topics covered include: advanced object oriented design, the
-                use of abstraction to manage complexity, objects and classes, inheritance and class hierarchies, multiple
-                inheritance, operator and method overloading, namespaces and visibility, templates, dynamic binding
-                and virtual functions, exception handling, multi-threading and C++ standard library. In addition, the
-                course will include a practical project, solving a real-life problem, implemented in C++, involving the
-                client/server methodology, and an interface to a database using a graphics toolkit. (Prerequisites: COMP2120, COMP-2560.) (3 lecture hours a week) ",
-                "prerequisites": ["16", "21"],
+                "description": "The main objective of this course is to explore advanced topics of the object oriented paradigm through the use of the C++ programming language. Topics covered include: advanced object oriented design, the use of abstraction to manage complexity, objects and classes, inheritance and class hierarchies, multiple inheritance, operator and method overloading, namespaces and visibility, templates, dynamic binding and virtual functions, exception handling, multi-threading and C++ standard library. In addition, the course will include a practical project, solving a real-life problem, implemented in C++, involving the client/server methodology, and an interface to a database using a graphics toolkit. (Prerequisites: COMP2120, COMP-2560.) (3 lecture hours a week) ",
+                "prerequisites": ["COMP-2120", "COMP-2560"],
                 "antirequisites": []
             },
-    "40":    {
+    "COMP-3500":    {
                 "name": "Introduction to Multimedia Systems",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3500",
                 "term": "",
-                "description": "This course provides the student with basic concepts and techniques used in multimedia systems. Topics
-                include: components of multimedia systems (text, audio, and video), media formats and standards, data
-                compression techniques, hypermedia techniques, and authoring tools. (Prerequisite: COMP-2540 and
-                COMP-2650.) (3 lecture hours a week)",
-                "prerequisites": ["19", "21"],
+                "description": "This course provides the student with basic concepts and techniques used in multimedia systems. Topics include: components of multimedia systems (text, audio, and video), media formats and standards, data compression techniques, hypermedia techniques, and authoring tools. (Prerequisite: COMP-2540 and COMP-2650.) (3 lecture hours a week)",
+                "prerequisites": ["COMP-2540", "COMP-2560"],
                 "antirequisites": []
             },
-    "41":    {
+    "COMP-3520":    {
                 "name": "Introduction to Computer Graphics",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3520",
                 "term": "",
-                "description": "An introduction to computer graphics hardware and software, interfaces, standards, programming
-                libraries, fundamental algorithms, rendering techniques, and algorithms for 2D and 3D applications.
-                Substantial programming work is vital to this course. (Prerequisite: COMP-2540 and MATH-1250.) (3
-                lecture hours a week) ",
-                "prerequisites": ["19", "or 0 1"],
+                "description": "An introduction to computer graphics hardware and software, interfaces, standards, programming libraries, fundamental algorithms, rendering techniques, and algorithms for 2D and 3D applications. Substantial programming work is vital to this course. (Prerequisite: COMP-2540 and MATH-1250.) (3 lecture hours a week) ",
+                "prerequisites": ["COMP-2540", "or MATH-1250 MATH-1260"],
                 "antirequisites": []
             },
-    "42":    {
+    "COMP-3540":    {
                 "name": "Theory of Computation",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3540",
                 "term": "",
-                "description": "Finite Automata, regular expressions and languages; properties of regular languages; context-free
-                grammars and languages; pushdown automata; properties of context-free languages. Introduction to
-                Turing machines; recursive functions; undecidability. (Prerequisites: COMP-2140, COMP-2310 and
-                COMP-2540.) (3 lecture hours a week) ",
-                "prerequisites": ["17", "18", "19"],
+                "description": "Finite Automata, regular expressions and languages; properties of regular languages; context-free grammars and languages; pushdown automata; properties of context-free languages. Introduction to Turing machines; recursive functions; undecidability. (Prerequisites: COMP-2140, COMP-2310 and COMP-2540.) (3 lecture hours a week) ",
+                "prerequisites": ["COMP-2140", "COMP-2310", "COMP-2540"],
                 "antirequisites": []
             },
-    "43":    {
+    "COMP-3670":    {
                 "name": "Computer Networks",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3670",
                 "term": "",
-                "description": "This course is an introduction to computer networks and their protocols. Topics include: network
-                architectures, transport, routing, and data link protocols, addressing, local area networks, flow and
-                congestion control, and network security. Examples will be drawn primarily from the Internet (e.g. TCP,
-                UDP, IP) protocol suite. (Prerequisite: COMP-2120, COMP-2540, COMP-2560 and COMP-2650.
-                Recommended corequisite: COMP-3300.)",
-                "prerequisites": ["16", "19", "21", "22"],
+                "description": "This course is an introduction to computer networks and their protocols. Topics include: network architectures, transport, routing, and data link protocols, addressing, local area networks, flow and congestion control, and network security. Examples will be drawn primarily from the Internet (e.g. TCP, UDP, IP) protocol suite. (Prerequisite: COMP-2120, COMP-2540, COMP-2560 and COMP-2650. Recommended corequisite: COMP-3300.)",
+                "prerequisites": ["COMP-2120", "COMP-2540", "COMP-2560", "COMP-2650"],
                 "antirequisites": []
             },
-    "44":    {
+    "COMP-3680":    {
                 "name": "Network Practicum",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3680",
                 "term": "",
-                "description": "This course will acquaint the students with practical details of network software and hardware. Topics
-                will include design, setup, configuration and implementation of various network functions. (Prerequisite:
-                COMP-3300 and COMP-3670.) (3 lecture hours and 1.5 lab hours a week.)",
-                "prerequisites": ["37", "43"],
+                "description": "This course will acquaint the students with practical details of network software and hardware. Topics will include design, setup, configuration and implementation of various network functions. (Prerequisite: COMP-3300 and COMP-3670.) (3 lecture hours and 1.5 lab hours a week.)",
+                "prerequisites": ["COMP-3300", "COMP-3670"],
                 "antirequisites": []
             },
-    "45":    {
+    "COMP-3710":    {
                 "name": "Artificial Intelligence Concepts",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3710",
                 "term": "",
-                "description": "This course covers fundamental concepts in Artificial Intelligence. Topics include informed and
-                uninformed search, problem solving using propositional and first-order logics, knowledge representation
-                and reasoning, plausible and uncertain reasoning, machine learning, ethical implications. An overview of some applied Artificial Intelligence such as natural language processing, planning and agent systems will
-                be included. (Prerequisites:COMP-2540 and (STAT-2910 or STAT-2920) (3 lecture hours a week) ",
-                "prerequisites": ["19", "36"],
+                "description": "This course covers fundamental concepts in Artificial Intelligence. Topics include informed and uninformed search, problem solving using propositional and first-order logics, knowledge representation and reasoning, plausible and uncertain reasoning, machine learning, ethical implications. An overview of some applied Artificial Intelligence such as natural language processing, planning and agent systems will be included. (Prerequisites:COMP-2540 and (STAT-2910 or STAT-2920) (3 lecture hours a week) ",
+                "prerequisites": ["COMP-2540", "STAT-2910"],
                 "antirequisites": []
             },
-    "46":    {
+    "COMP-3750":    {
                 "name": "Selected Topics",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3750",
                 "term": "",
-                "description": "Topics may differ from year to year. (Prerequisite: COMP-2120, COMP-2540, and COMP-2560. Additional
-                courses may be required depending upon the subject.) (May be repeated for credit if content changes.)(3
-                lecture hours or equivalent a week) ",
-                "prerequisites": ["16", "19", "21"],
+                "description": "Topics may differ from year to year. (Prerequisite: COMP-2120, COMP-2540, and COMP-2560. Additional courses may be required depending upon the subject.) (May be repeated for credit if content changes.)(3 lecture hours or equivalent a week) ",
+                "prerequisites": ["COMP-2120", "COMP-2540", "COMP-2560"],
                 "antirequisites": []
             },
-    "47":    {
+    "COMP-3760":    {
                 "name": "Selected Topics",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3760",
                 "term": "",
-                "description": "Topics may differ from year to year. (Prerequisite: COMP-2120, COMP-2540, and COMP-2560. Additional
-                courses may be required depending upon the subject.) (May be repeated for credit if content changes.)(3
-                lecture hours or equivalent a week)",
-                "prerequisites": ["16", "19", "21"],
+                "description": "Topics may differ from year to year. (Prerequisite: COMP-2120, COMP-2540, and COMP-2560. Additional courses may be required depending upon the subject.) (May be repeated for credit if content changes.)(3 lecture hours or equivalent a week)",
+                "prerequisites": ["COMP-2120", "COMP-2540", "COMP-2560"],
                 "antirequisites": []
             },
-    "48":    {
+    "COMP-3770":    {
                 "name": "Game Design, Development and Tools",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3770",
                 "term": "",
-                "description": "This course introduces professional game design and development tools. Students will become proficient
-                in the use of a commercial grade game engine (e.g., Unity3D) and associated scripting/programming
-                languages (e.g., C#) through programming intensive hands-on assignments. Topics may include game
-                design and development concepts such as game objects and game components, game physics and
-                collision handling, basic artificial intelligence, 2D and 3D graphics, textures and shaders, sprite animation,
-                3D animation, and audio. (Prerequisites: COMP-2120 and COMP-2540.) (3 lecture hours a week)",
-                "prerequisites": ["16", "19"],
+                "description": "This course introduces professional game design and development tools. Students will become proficient in the use of a commercial grade game engine (e.g., Unity3D) and associated scripting/programming languages (e.g., C#) through programming intensive hands-on assignments. Topics may include game design and development concepts such as game objects and game components, game physics and collision handling, basic artificial intelligence, 2D and 3D graphics, textures and shaders, sprite animation, 3D animation, and audio. (Prerequisites: COMP-2120 and COMP-2540.) (3 lecture hours a week)",
+                "prerequisites": ["COMP-2120", "COMP-2540"],
                 "antirequisites": []
             },
-    "49":    {
+    "COMP-3980":    {
                 "name": "Co-op Work Term II",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "3980",
                 "term": "",
-                "description": "Supervised experience in an approved career-related setting with a focus on the application of theory
-                and the development of transferable skills. The Co-op work experience is designed to provide students
-                with an enriched learning opportunity to integrate academic theory and concepts in an applied setting.
-                (Prerequisite: Student must be enrolled in a Co-operative education program. Offered on a Pass/nonPass basis. Supervised practicum requires the successful completion of a minimum of 420 hours.
-                Students who do not pass the course cannot continue in the Co-op program.) (This is an experiential
-                learning course.)",
-                "prerequisites": ["27"],
+                "description": "Supervised experience in an approved career-related setting with a focus on the application of theory and the development of transferable skills. The Co-op work experience is designed to provide students with an enriched learning opportunity to integrate academic theory and concepts in an applied setting. (Prerequisite: Student must be enrolled in a Co-operative education program. Offered on a Pass/nonPass basis. Supervised practicum requires the successful completion of a minimum of 420 hours. Students who do not pass the course cannot continue in the Co-op program.) (This is an experiential learning course.)",
+                "prerequisites": ["COMP-2980"],
                 "antirequisites": []
             },
-    "50":    {
+    "COMP-4110":    {
                 "name": "Software Verification and Testing",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4110",
                 "term": "",
-                "description": "This course covers fundamental concepts and techniques for software verification and testing. The
-                students will learn through practice the testing process, automated software testing tools, and various
-                test models together with the related test coverage criteria. (Prerequisites: COMP-3110 and COMP3300.) (3 lecture hours a week)",
-                "prerequisites": ["32", "37"],
+                "description": "This course covers fundamental concepts and techniques for software verification and testing. The students will learn through practice the testing process, automated software testing tools, and various test models together with the related test coverage criteria. (Prerequisites: COMP-3110 and COMP3300.) (3 lecture hours a week)",
+                "prerequisites": ["COMP-3110", "COMP-3300"],
                 "antirequisites": []
             },
-    "51":    {
+    "COMP-4150":    {
                 "name": "Advanced and Practical Database Systems",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4150",
                 "term": "",
-                "description": "This course covers both advanced theoretical database materials as well as specific database application
-                development tools needed in the industry. The course completes database design and theory initiated in
-                COMP-3150 and then adds database application development languages. Students will be exposed to
-                the running environments (e.g., their compilers) and applying these on the database theory and design of
-                the first part to develop full application. (Prerequisites: COMP-3150 and COMP-3300.) (3 lecture hours a
-                week)",
-                "prerequisites": ["33", "37"],
+                "description": "This course covers both advanced theoretical database materials as well as specific database application development tools needed in the industry. The course completes database design and theory initiated in COMP-3150 and then adds database application development languages. Students will be exposed to the running environments (e.g., their compilers) and applying these on the database theory and design of the first part to develop full application. (Prerequisites: COMP-3150 and COMP-3300.) (3 lecture hours a week)",
+                "prerequisites": ["COMP-3150", "COMP-3300"],
                 "antirequisites": []
             },
-    "52":    {
+    "COMP-4200":    {
                 "name": "Mobile Application Development",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4200",
                 "term": "",
-                "description": "Students taking this course will learn how to create a mobile application for the Android platform. The
-                topics covered will include: use of the mobile application development environment, specification of the
-                requirements for a mobile application, design and implementation of the end-user interface, managing
-                data in a mobile application environment, interfacing with data and programs residing on remote
-                servers, creation of object-oriented programs to implement the mobile application, use of libraries and
-                third-party software resources, deployment of a mobile application so that it is available to the public,
-                and documentation, including creation of end-user instructions, and design/program documentation.
-                Students will work individually, and will develop a mobile application that has been approved by the
-                instructor of the course. (Prerequisites: COMP-3150, COMP-3220.) (3 lecture hours a week.)",
-                "prerequisites": ["33", "34"],
+                "description": "Students taking this course will learn how to create a mobile application for the Android platform. The topics covered will include: use of the mobile application development environment, specification of the requirements for a mobile application, design and implementation of the end-user interface, managing data in a mobile application environment, interfacing with data and programs residing on remote servers, creation of object-oriented programs to implement the mobile application, use of libraries and third-party software resources, deployment of a mobile application so that it is available to the public, and documentation, including creation of end-user instructions, and design/program documentation. Students will work individually, and will develop a mobile application that has been approved by the instructor of the course. (Prerequisites: COMP-3150, COMP-3220.) (3 lecture hours a week.)",
+                "prerequisites": ["COMP-3150", "COMP-3220"],
                 "antirequisites": []
             },
-    "53":    {
+    "COMP-4220":    {
                 "name": "Agile Software Development",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4220",
                 "term": "",
-                "description": "This project-oriented course is designed to give students experience in developing projects using Agile
-                software development process. The course will discuss principles of Agile methods for software
-                development, with a concentration on the eXtreme Programming methodology, and will teach concepts
-                related to its practices. Topics will include software and user interface design, build and development
-                tools, data persistence, and proper software testing. Projects will involve the creation of industry-oriented software (e.g. in Java), and will expose participants to tools commonly used in industry.
-                (Prerequisite: COMP-3220.)(3 lecture hours a week.)",
-                "prerequisites": ["34"],
+                "description": "This project-oriented course is designed to give students experience in developing projects using Agile software development process. The course will discuss principles of Agile methods for software development, with a concentration on the eXtreme Programming methodology, and will teach concepts related to its practices. Topics will include software and user interface design, build and development tools, data persistence, and proper software testing. Projects will involve the creation of industry-oriented software (e.g. in Java), and will expose participants to tools commonly used in industry. (Prerequisite: COMP-3220.)(3 lecture hours a week.)",
+                "prerequisites": ["COMP-3220"],
                 "antirequisites": []
             },
-    "54":    {
+    "COMP-4250":    {
                 "name": "Big Data Analytics and Database Design",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4250",
                 "term": "",
-                "description": "This course introduces topics in data mining and data analytics with emphasis on Big Data. Students will
-                gain knowledge on the practical design principles as well as theoretical foundations of Big Data
-                processing systems. Topics covered will include: data storage design and processing of big data systems
-                such as NOSQL databases, MapReduce and Hadoop; introduction to data mining concepts such as
-                frequent itemset and association rule mining, finding similar items, clustering, classification, link analysis,
-                and mining data streams. (Prerequisite: COMP-3150.) (3 lecture hours a week.)",
-                "prerequisites": ["33"],
+                "description": "This course introduces topics in data mining and data analytics with emphasis on Big Data. Students will gain knowledge on the practical design principles as well as theoretical foundations of Big Data processing systems. Topics covered will include: data storage design and processing of big data systems such as NOSQL databases, MapReduce and Hadoop; introduction to data mining concepts such as frequent itemset and association rule mining, finding similar items, clustering, classification, link analysis, and mining data streams. (Prerequisite: COMP-3150.) (3 lecture hours a week.)",
+                "prerequisites": ["COMP-3150"],
                 "antirequisites": []
             },
-    "55":    {
+    "COMP-4400":    {
                 "name": "Principles of Programming Languages",
-                "department": "0",
-                "course_code": "",
+                "department": "COMP",
+                "course_code": "4400",
                 "term": "",
-                "description": "Basic concepts of programming languages. Comparative study of the major programming paradigms,
-                including imperative, object-oriented, functional, logic, and concurrent programming. Principles of
-                programming language design and evaluation. Syntax, semantics and implementation techniques of
-                programming languages. (Prerequisite: COMP-2140, COMP-2310 and COMP-2540.) (Restricted to
-                Computer Science students.) (3 lecture hours a week.) ",
-                "prerequisites": ["17", "18", "19"],
+                "description": "Basic concepts of programming languages. Comparative study of the major programming paradigms, including imperative, object-oriented, functional, logic, and concurrent programming. Principles of programming language design and evaluation. Syntax, semantics and implementation techniques of programming languages. (Prerequisite: COMP-2140, COMP-2310 and COMP-2540.) (Restricted to Computer Science students.) (3 lecture hours a week.) ",
+                "prerequisites": ["COMP-2140", "COMP-2310", "COMP-2540"],
                 "antirequisites": []
             },
-    "56":    {
+    "COMP-4500":    {
                 "name": "3D Multimedia System Development",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4500",
                 "term": "",
-                "description": "The aim of this course is to discuss and learn technologies for the development of multimedia
-                application, modeling and development of standalone and/or, networked multimedia systems, and
-                computer generated 3D animation. (Prerequisite: Year 3/4 standing in Computer Science or
-                Communication, Media, and Film or Visual Art and consent of instructor.) (3 lecture hours a week.) ",
+                "description": "The aim of this course is to discuss and learn technologies for the development of multimedia application, modeling and development of standalone and/or, networked multimedia systems, and computer generated 3D animation. (Prerequisite: Year 3/4 standing in Computer Science or Communication, Media, and Film or Visual Art and consent of instructor.) (3 lecture hours a week.) ",
                 "prerequisites": [],
                 "antirequisites": []
             },
-    "57":    {
+    "COMP-4540":    {
                 "name": "Design and Analysis of Computer Algorithms",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4540",
                 "term": "",
-                "description": "The intent of this course is to introduce the fundamental techniques in the design and analysis of
-                computer algorithms. Topics include: asymptotic bounds, advanced data structures, searching, sorting,
-                order statistics, oracle arguments, divide-and-conquer, greedy algorithms, dynamic programming, graph
-                algorithms, NP completeness, and approximation algorithms. (Prerequisite: COMP-2310 and COMP2540) (Restricted to students in any Honours Computer Science program or consent of instructor.) (3
-                lecture hours a week.)",
-                "prerequisites": ["18", "19"],
+                "description": "The intent of this course is to introduce the fundamental techniques in the design and analysis of computer algorithms. Topics include: asymptotic bounds, advanced data structures, searching, sorting, order statistics, oracle arguments, divide-and-conquer, greedy algorithms, dynamic programming, graph algorithms, NP completeness, and approximation algorithms. (Prerequisite: COMP-2310 and COMP2540) (Restricted to students in any Honours Computer Science program or consent of instructor.) (3 lecture hours a week.)",
+                "prerequisites": ["COMP-2310", "COMP-2540"],
                 "antirequisites": []
             },
-    "58":    {
+    "COMP-4670":    {
                 "name": "Network Security",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4670",
-                "term": "This course will introduce students to advanced topics in network security. Topics will include encryption
-                and authentication techniques, detection and analysis of intrusions, and the security of electronic mail
-                and web access. (Restricted to Computer Science students) (Prerequisites: COMP-3670.) (3 lecture hours
-                a week.)",
+                "term": "This course will introduce students to advanced topics in network security. Topics will include encryption and authentication techniques, detection and analysis of intrusions, and the security of electronic mail and web access. (Restricted to Computer Science students) (Prerequisites: COMP-3670.) (3 lecture hours a week.)",
                 "description": "",
-                "prerequisites": ["43"],
+                "prerequisites": ["COMP-3670"],
                 "antirequisites": []
             },
-    "59":    {
+    "COMP-4680":    {
                 "name": "Advanced Networking",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4680",
                 "term": "",
-                "description": "The course will introduce students to advanced topics in networking. (Restricted to Computer Science
-                Students) (Prerequisites: COMP-3670 and COMP-3680.) ",
-                "prerequisites": ["43", "44"],
+                "description": "The course will introduce students to advanced topics in networking. (Restricted to Computer Science Students) (Prerequisites: COMP-3670 and COMP-3680.) ",
+                "prerequisites": ["COMP-3670", "COMP-3680"],
                 "antirequisites": []
             },
-    "60":    {
+    "COMP-4700":    {
                 "name": "Project Using Selected Tools",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4700",
                 "term": "",
-                "description": "Students will complete a project using an advanced computing tool, such as a database package,
-                simulation software, speech-recognition hardware module, etc. Students are required to submit a report
-                describing the project and demonstrating mastery of the tool. Tools and the project are chosen by the
-                student with the approval of the instructor. (Restricted to Computer Science Students ) (Prerequisite:
-                COMP-3150, COMP-3220, and COMP-3300.) (3 lecture hours or equivalent a week) ",
-                "prerequisites": ["33", "34", "37"],
+                "description": "Students will complete a project using an advanced computing tool, such as a database package, simulation software, speech-recognition hardware module, etc. Students are required to submit a report describing the project and demonstrating mastery of the tool. Tools and the project are chosen by the student with the approval of the instructor. (Restricted to Computer Science Students ) (Prerequisite: COMP-3150, COMP-3220, and COMP-3300.) (3 lecture hours or equivalent a week) ",
+                "prerequisites": ["COMP-3150", "COMP-3220", "COMP-3300"],
                 "antirequisites": []
             },
-    "61":    {
+    "COMP-4730":    {
                 "name": "Advanced Topics in Artificial Intelligence I",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4730",
                 "term": "",
-                "description": "The course will introduce students to advanced topics in Artificial Intelligence. (Restricted to Honours
-                Computer Science students) (Prerequisite: COMP-3710.) (3 lecture hours a week)",
-                "prerequisites": ["45"],
+                "description": "The course will introduce students to advanced topics in Artificial Intelligence. (Restricted to Honours Computer Science students) (Prerequisite: COMP-3710.) (3 lecture hours a week)",
+                "prerequisites": ["COMP-3710"],
                 "antirequisites": []
             },
-    "62":    {
+    "COMP-4740":    {
                 "name": "Advanced Topics in Artificial Intelligence II",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4740",
                 "term": "",
-                "description": "The course will introduce students to advanced topics in Artificial Intelligence. (Restricted to Honours
-                Computer Science students.) (Prerequisite: COMP-3710.) (3 lecture hours a week) ",
-                "prerequisites": ["45"],
+                "description": "The course will introduce students to advanced topics in Artificial Intelligence. (Restricted to Honours Computer Science students.) (Prerequisite: COMP-3710.) (3 lecture hours a week) ",
+                "prerequisites": ["COMP-3710"],
                 "antirequisites": []
             },
-    "63":    {
+    "COMP-4750":    {
                 "name": "Selected Topics",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4750",
                 "term": "",
-                "description": "In many cases the topics will coincide with a graduate course offering in a given year, and students will
-                be required to complete the lecture component of that graduate course. Topics may include: advanced
-                database management, graphics, artificial intelligence, information retrieval, theory of computation,
-                functional programming, knowledge base systems, and foundations of programming languages.
-                (Restricted to Semester 7 and Semester 8 students in Computer Science with permission of the
-                instructor.) (May be repeated for credit if content changes.) (3 lecture hours or equivalent a week) ",
+                "description": "In many cases the topics will coincide with a graduate course offering in a given year, and students will be required to complete the lecture component of that graduate course. Topics may include: advanced database management, graphics, artificial intelligence, information retrieval, theory of computation, functional programming, knowledge base systems, and foundations of programming languages. (Restricted to Semester 7 and Semester 8 students in Computer Science with permission of the instructor.) (May be repeated for credit if content changes.) (3 lecture hours or equivalent a week) ",
                 "prerequisites": [],
                 "antirequisites": []
             },
-    "64":    {
+    "COMP-4760":    {
                 "name": "Selected Topics",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4760",
                 "term": "",
-                "description": "In many cases the topics will coincide with a graduate course offering in a given year, and students will
-                be required to complete the lecture component of that graduate course. Topics may include: advanced
-                database management, graphics, artificial intelligence, information retrieval, theory of computation,
-                functional programming, knowledge base systems, and foundations of programming languages.
-                (Restricted to Semester 7 and Semester 8 students in Computer Science with permission of the
-                instructor.) (May be repeated for credit if content changes.) (3 lecture hours or equivalent a week) ",
+                "description": "In many cases the topics will coincide with a graduate course offering in a given year, and students will be required to complete the lecture component of that graduate course. Topics may include: advanced database management, graphics, artificial intelligence, information retrieval, theory of computation, functional programming, knowledge base systems, and foundations of programming languages. (Restricted to Semester 7 and Semester 8 students in Computer Science with permission of the instructor.) (May be repeated for credit if content changes.) (3 lecture hours or equivalent a week) ",
                 "prerequisites": [],
                 "antirequisites": []
             },
-    "65":    {
+    "COMP-4770":    {
                 "name": "Artificial Intelligence for Games",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4770",
                 "term": "",
-                "description": "This course provides students with an opportunity to explore theoretical and practical aspects of Artificial
-                Intelligence for computer games. Topics may include agents, sensory systems, steering behaviours,
-                pathfinding, decision making, planning, goal-oriented behaviour, multi-agents (groups, crowds) and
-                learning. (Prerequisite: COMP-3770.)(Restricted to students in any Honours Computer Science program.)
-                (3 lecture hours a week.)",
-                "prerequisites": ["48"],
+                "description": "This course provides students with an opportunity to explore theoretical and practical aspects of Artificial Intelligence for computer games. Topics may include agents, sensory systems, steering behaviours, pathfinding, decision making, planning, goal-oriented behaviour, multi-agents (groups, crowds) and learning. (Prerequisite: COMP-3770.)(Restricted to students in any Honours Computer Science program.) (3 lecture hours a week.)",
+                "prerequisites": ["COMP-3770"],
                 "antirequisites": []
             },
-    "66":    {
+    "COMP-4800":    {
                 "name": "Selected Topics in Software Engineering",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4800",
                 "term": "",
-                "description": "This course intends to connect emerging technologies with the student's theoretical background in
-                Computer Science related to Software Engineering concepts and techniques. Selected application
-                domains include protocol security, web systems and distributed object systems and the theories involved
-                include graph theory, set theory, automata and compiler theory. (Prerequisite: COMP-3110, COMP-3220
-                and COMP-3300.) (Restricted to Computer Science Students). (3 lecture hours a week) ",
-                "prerequisites": ["32", "34", "37"],
+                "description": "This course intends to connect emerging technologies with the student's theoretical background in Computer Science related to Software Engineering concepts and techniques. Selected application domains include protocol security, web systems and distributed object systems and the theories involved include graph theory, set theory, automata and compiler theory. (Prerequisite: COMP-3110, COMP-3220 and COMP-3300.) (Restricted to Computer Science Students). (3 lecture hours a week) ",
+                "prerequisites": ["COMP-3110", "COMP-3220", "COMP-3300"],
                 "antirequisites": []
             },
-    "67":    {
+    "COMP-4660A":    {
                 "name": "Research Project A",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4660A",
                 "term": "",
-                "description": "This course consists of two components: a) development of research skills, and b) development of
-                technical writing and project presentation skills. This course requires students to complete a research
-                project in some area of Computer Science under the supervision of a faculty member. The course will
-                typically involve the development of some software or the design and/or implementation of some
-                algorithm. Each student will be required to submit a project report and give one or more seminars on
-                the research project. (a 6 credit course restricted to Semester 7 or Semester 8 students in BCS (Honours)
-                or B.Sc. (Honours Computer Science with Software Engineering Specialization) with a major average of
-                72% or better.) (Anti-requisite COMP-4990.) (3 lecture hours or equivalent a week, for two terms.)",
+                "description": "This course consists of two components: a) development of research skills, and b) development of technical writing and project presentation skills. This course requires students to complete a research project in some area of Computer Science under the supervision of a faculty member. The course will typically involve the development of some software or the design and/or implementation of some algorithm. Each student will be required to submit a project report and give one or more seminars on the research project. (a 6 credit course restricted to Semester 7 or Semester 8 students in BCS (Honours) or B.Sc. (Honours Computer Science with Software Engineering Specialization) with a major average of 72% or better.) (Anti-requisite COMP-4990.) (3 lecture hours or equivalent a week, for two terms.)",
                 "prerequisites": [],
-                "antirequisites": ["71", "72"]
+                "antirequisites": ["COMP-4990A", "COMP-4990B"]
             },
-    "68":    {
+    "COMP-4660B":    {
                 "name": "Research Project B",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4660B",
                 "term": "",
-                "description": "This course consists of two components: a) development of research skills, and b) development of
-                technical writing and project presentation skills. This course requires students to complete a research
-                project in some area of Computer Science under the supervision of a faculty member. The course will
-                typically involve the development of some software or the design and/or implementation of some
-                algorithm. Each student will be required to submit a project report and give one or more seminars on
-                the research project. (a 6 credit course restricted to Semester 7 or Semester 8 students in BCS (Honours)
-                or B.Sc. (Honours Computer Science with Software Engineering Specialization) with a major average of
-                72% or better.) (Anti-requisite COMP-4990.) (3 lecture hours or equivalent a week, for two terms.)",
-                "prerequisites": ["67"],
-                "antirequisites": ["71", "72"]
+                "description": "This course consists of two components: a) development of research skills, and b) development of technical writing and project presentation skills. This course requires students to complete a research project in some area of Computer Science under the supervision of a faculty member. The course will typically involve the development of some software or the design and/or implementation of some algorithm. Each student will be required to submit a project report and give one or more seminars on the research project. (a 6 credit course restricted to Semester 7 or Semester 8 students in BCS (Honours) or B.Sc. (Honours Computer Science with Software Engineering Specialization) with a major average of 72% or better.) (Anti-requisite COMP-4990.) (3 lecture hours or equivalent a week, for two terms.)",
+                "prerequisites": ["COMP-4660A"],
+                "antirequisites": ["COMP-4990A", "COMP-4990B"]
             },
-    "69":    {
+    "COMP-4970":    {
                 "name": "Co-op Work Term III",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4970",
                 "term": "",
-                "description": "Supervised experience in an approved career-related setting with a focus on the application of theory
-                and the development of transferable skills. The Co-op work experience is designed to provide students
-                with an enriched learning opportunity to integrate academic theory and concepts in an applied setting.
-                (Prerequisite: Student must be enrolled in a Co-operative education program. Offered on a Pass/nonPass basis. Supervised practicum requires the successful completion of a minimum of 420 hours.
-                Students who do not pass the course cannot continue in the Co-op program.) (This is an experiential
-                learning course.)",
-                "prerequisites": ["49"],
+                "description": "Supervised experience in an approved career-related setting with a focus on the application of theory and the development of transferable skills. The Co-op work experience is designed to provide students with an enriched learning opportunity to integrate academic theory and concepts in an applied setting. (Prerequisite: Student must be enrolled in a Co-operative education program. Offered on a Pass/nonPass basis. Supervised practicum requires the successful completion of a minimum of 420 hours. Students who do not pass the course cannot continue in the Co-op program.) (This is an experiential learning course.)",
+                "prerequisites": ["COMP-3980"],
                 "antirequisites": []
             },
-    "70":    {
+    "COMP-4980":    {
                 "name": "Co-op Work Term IV",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4980",
                 "term": "",
-                "description": "Supervised experience in an approved career-related setting with a focus on the application of theory
-                and the development of transferable skills. The Co-op work experience is designed to provide students
-                with an enriched learning opportunity to integrate academic theory and concepts in an applied setting.
-                (Prerequisite: Student must be enrolled in a Co-operative education program. Offered on a Pass/nonPass basis. Supervised practicum requires the successful completion of a minimum of 420 hours.
-                Students who do not pass the course cannot continue in the Co-op program.) (This is an experiential
-                learning course.)",
-                "prerequisites": ["69"],
+                "description": "Supervised experience in an approved career-related setting with a focus on the application of theory and the development of transferable skills. The Co-op work experience is designed to provide students with an enriched learning opportunity to integrate academic theory and concepts in an applied setting. (Prerequisite: Student must be enrolled in a Co-operative education program. Offered on a Pass/nonPass basis. Supervised practicum requires the successful completion of a minimum of 420 hours. Students who do not pass the course cannot continue in the Co-op program.) (This is an experiential learning course.)",
+                "prerequisites": ["COMP-4970"],
                 "antirequisites": []
             },
-    "71":    {
+    "COMP-4990A":    {
                 "name": "Project Management: Techniques and Tools A",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4990A",
                 "term": "",
-                "description": "This course requires students to complete an application development project in some area of Computer
-                Science under the supervision of a faculty member. The course will typically involve the development of
-                some software or the design and/or implementation of some algorithm. Students will be required to
-                submit project reports and give presentations on the technical components of the project. (a 6 credit
-                course restricted to Semester 7 or Semester 8 students in Computer Science.) (Antirequisite: COMP4960.) (3 lecture hours or equivalent a week, for two terms.)",
+                "description": "This course requires students to complete an application development project in some area of Computer Science under the supervision of a faculty member. The course will typically involve the development of some software or the design and/or implementation of some algorithm. Students will be required to submit project reports and give presentations on the technical components of the project. (a 6 credit course restricted to Semester 7 or Semester 8 students in Computer Science.) (Antirequisite: COMP4960.) (3 lecture hours or equivalent a week, for two terms.)",
                 "prerequisites": [""],
-                "antirequisites": ["67", "68"]
+                "antirequisites": ["COMP-4660A", "COMP-4660B"]
             },
-    "72":    {
+    "COMP-4990B":    {
                 "name": "Project Management: Techniques and Tools B",
-                "department": "0",
+                "department": "COMP",
                 "course_code": "4990B",
                 "term": "",
-                "description": "This course requires students to complete an application development project in some area of Computer
-                Science under the supervision of a faculty member. The course will typically involve the development of
-                some software or the design and/or implementation of some algorithm. Students will be required to
-                submit project reports and give presentations on the technical components of the project. (a 6 credit
-                course restricted to Semester 7 or Semester 8 students in Computer Science.) (Antirequisite: COMP4960.) (3 lecture hours or equivalent a week, for two terms.)",
-                "prerequisites": ["71"],
-                "antirequisites": ["67", "68"]
-            },
+                "description": "This course requires students to complete an application development project in some area of Computer Science under the supervision of a faculty member. The course will typically involve the development of some software or the design and/or implementation of some algorithm. Students will be required to submit project reports and give presentations on the technical components of the project. (a 6 credit course restricted to Semester 7 or Semester 8 students in Computer Science.) (Antirequisite: COMP4960.) (3 lecture hours or equivalent a week, for two terms.)",
+                "prerequisites": ["COMP-4990A"],
+                "antirequisites": ["COMP-4660A", "COMP-4660B"]
+            }
 }

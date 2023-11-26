@@ -11,7 +11,13 @@ const ProgramSchema = new mongoose.Schema({
         required: true,
     },
     requiredCourses: {
-        type: [String] //Format of DEPT_CODE-COURSE_CODE, example: 0-4150 for COMP 4150
+        type: [String] //Format of DEPT_CODE-COURSE_CODE, example: COMP-4150
+    },
+    otherRequirements: {
+        type: String
+    },
+    defaultSequence: {
+        type: Object 
     }
 })
 

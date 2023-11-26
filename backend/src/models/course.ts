@@ -21,7 +21,12 @@ const CourseSchema = new mongoose.Schema({
     description: {
         type: String
     },
-    //TODO: Add prerequisites and antirequisites
+    prerequisites: {
+        type: [String] 
+    },
+    antirequisites: {
+        type: [String]
+    }
 })
 
 export const CourseModel = mongoose.model('Course', CourseSchema);
