@@ -1,5 +1,10 @@
 import mongoose from 'mongoose';
 
+export type Department = {
+    name: String;
+    code: Number;
+}
+
 const DepartmentSchema = new mongoose.Schema({
     name: {
         type: String,

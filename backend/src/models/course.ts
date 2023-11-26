@@ -1,5 +1,15 @@
 import mongoose from 'mongoose';
 
+export type Course {
+    name: String;
+    department: Number;
+    course_code: Number;
+    term: String;
+    description: String;
+    prerequisites: Array<String>;
+    antirequisites: Array<String>;
+}
+
 const CourseSchema = new mongoose.Schema({
     name: {
         type: String,
