@@ -1,14 +1,14 @@
+[
 {
-    "COMP":    {
-                "name": "Computer Science",
-                "code": "COMP"
-            },
-    "MATH":    {
-                "name": "Mathematics and Statistics",
-                "code": "MATH"
-            },
-    "STAT":    {
-                "name": "Mathematics and Statistics",
-                "code": "STAT"
-            }
+    "name": "Computer Science",
+    "code": "COMP"
+},
+{
+    "name": "Mathematics and Statistics",
+    "code": "MATH"
+},
+{
+    "name": "Mathematics and Statistics",
+    "code": "STAT"
 }
+]

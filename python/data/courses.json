@@ -1,5 +1,5 @@
-{
-    "MATH-1250":    {
+[
+    {
                 "name": "Linear Algebra I",
                 "department": "MATH",
                 "course_code": "1250",
@@ -8,7 +8,7 @@
                 "prerequisites": [],
                 "antirequisites": ["MATH-1260"]
             },
-    "MATH-1260":    {
+    {
                 "name": "Vectors and Linear Algebra",
                 "department": "MATH",
                 "course_code": "1260",
@@ -17,7 +17,7 @@
                 "prerequisites": [],
                 "antirequisites": ["MATH-1250"]
             },
-    "MATH-1720":    {
+        {
                 "name": "Differential Calculus",
                 "department": "MATH",
                 "course_code": "1720",
@@ -26,7 +26,7 @@
                 "prerequisites": [],
                 "antirequisites": ["MATH-1760"]
             },
-    "MATH-1730":    {
+       {
                 "name": "Integral Calculus",
                 "department": "MATH",
                 "course_code": "1730",
@@ -35,7 +35,7 @@
                 "prerequisites": ["or MATH-1720 MATH-1760"],
                 "antirequisites": []
             },
-    "MATH-1760":    {
+        {
                 "name": "Functions and Differential Calculus",
                 "department": "MATH",
                 "course_code": "1760",
@@ -44,7 +44,7 @@
                 "prerequisites": [],
                 "antirequisites": ["MATH-1720"]
             },
-    "MATH-1020":    {
+        {
                 "name": "Mathematical Foundations",
                 "department": "MATH",
                 "course_code": "1020",
@@ -53,7 +53,7 @@
                 "prerequisites": ["or COMP-1000 MATH-1250 MATH-1260"],
                 "antirequisites": []
             },
-    "MATH-3940":    {
+        {
                 "name": "Numerical Analysis for Computer Scientists",
                 "department": "MATH",
                 "course_code": "3940",
@@ -62,7 +62,7 @@
                 "prerequisites": ["COMP-1410", "MATH-1760", "or 0 1"],
                 "antirequisites": []
             },
-    "COMP-1000":    {
+        {
                 "name": "Key Concepts in Computer Science",
                 "department": "COMP",
                 "course_code": "1000",
@@ -71,7 +71,7 @@
                 "prerequisites": [],
                 "antirequisites": []
             },
-    "COMP-1047":    {
+        {
                 "name": "Computer Concepts for End-Users",
                 "department": "COMP",
                 "course_code": "1047",
@@ -80,7 +80,7 @@
                 "prerequisites": [],
                 "antirequisites": []
             },
-    "COMP-1400":    {
+        {
                 "name": "Introduction to Algorithms and Programming I",
                 "department": "COMP",
                 "course_code": "1400",
@@ -89,7 +89,7 @@
                 "prerequisites": [],
                 "antirequisites": []
             },
-    "COMP-1410":    {
+        {
                 "name": "Introduction to Algorithms and Programming II",
                 "department": "COMP",
                 "course_code": "1410",
@@ -98,7 +98,7 @@
                 "prerequisites": ["or COMP-1000 MATH-1720", "COMP-1400"],
                 "antirequisites": []
             },
-    "COMP-2057":    {
+        {
                 "name": "Introduction to the Internet",
                 "department": "COMP",
                 "course_code": "2057",
@@ -107,7 +107,7 @@
                 "prerequisites": ["or COMP-1047 COMP-2067 COMP-1400"],
                 "antirequisites": []
             },
-    "COMP-2067":    {
+        {
                 "name": "Programming for Beginners",
                 "department": "COMP",
                 "course_code": "2067",
@@ -116,7 +116,7 @@
                 "prerequisites": [],
                 "antirequisites": []
             },
-    "COMP-2077":    {
+        {
                 "name": "Problem Solving and Information on the Internet",
                 "department": "COMP",
                 "course_code": "2077",
@@ -125,7 +125,7 @@
                 "prerequisites": ["COMP-1047", "COMP-2057"],
                 "antirequisites": []
             },
-    "COMP-2087":    {
+        {
                 "name": "Programming for Beginners II",
                 "department": "COMP",
                 "course_code": "2087",
@@ -134,7 +134,7 @@
                 "prerequisites": ["COMP-2067"],
                 "antirequisites": []
             },
-    "COMP-2097":    {
+        {
                 "name": "Social Media Marketing for End Users",
                 "department": "COMP",
                 "course_code": "2097",
@@ -143,7 +143,7 @@
                 "prerequisites": [],
                 "antirequisites": []
             },
-    "COMP-2120":    {
+        {
                 "name": "Object-Oriented Programming Using Java",
                 "department": "COMP",
                 "course_code": "2120",
@@ -152,7 +152,7 @@
                 "prerequisites": ["COMP-1410"],
                 "antirequisites": []
             },
-    "COMP-2140":    {
+        {
                 "name": "Computer Languages, Grammars, and Translators",
                 "department": "COMP",
                 "course_code": "2140",
@@ -161,7 +161,7 @@
                 "prerequisites": ["COMP-1000", "COMP-2120"],
                 "antirequisites": []
             },
-    "COMP-2310":    {
+        {
                 "name": "Theoretical Foundations of Computer Science",
                 "department": "COMP",
                 "course_code": "2310",
@@ -170,7 +170,7 @@
                 "prerequisites": ["COMP-1000", "MATH-1020"],
                 "antirequisites": []
             },
-    "COMP-2540":    {
+        {
                 "name": "Data Structures and Algorithms",
                 "department": "COMP",
                 "course_code": "2540",
@@ -179,7 +179,7 @@
                 "prerequisites": ["COMP-1000", "COMP-1410"],
                 "antirequisites": []
             },
-    "COMP-2547":    {
+        {
                 "name": "Applied Algorithms and Data Structures",
                 "department": "COMP",
                 "course_code": "2547",
@@ -188,7 +188,7 @@
                 "prerequisites": ["COMP-1000", "COMP-2087", "COMP-2540"],
                 "antirequisites": []
             },
-    "COMP-2560":    {
+        {
                 "name": "Systems Programming",
                 "department": "COMP",
                 "course_code": "2560",
@@ -197,7 +197,7 @@
                 "prerequisites": ["COMP-1410"],
                 "antirequisites": []
             },
-    "COMP-2650":    {
+        {
                 "name": "Computer Architecture I: Digital Design",
                 "department": "COMP",
                 "course_code": "2650",
@@ -206,7 +206,7 @@
                 "prerequisites": ["COMP-1400"],
                 "antirequisites": []
             },
-    "COMP-2660":    {
+        {
                 "name": "Computer Architecture II: Microprocessor Programming",
                 "department": "COMP",
                 "course_code": "2660",
@@ -215,7 +215,7 @@
                 "prerequisites": ["COMP-2650"],
                 "antirequisites": []
             },
-    "COMP-2707":    {
+        {
                 "name": "Advanced Web Design, Construction, and Deployment",
                 "department": "COMP",
                 "course_code": "2707",
@@ -224,7 +224,7 @@
                 "prerequisites": ["COMP-2057"],
                 "antirequisites": []
             },
-    "COMP-2750":    {
+        {
                 "name": "Selected Topics",
                 "department": "COMP",
                 "course_code": "2750",
@@ -233,7 +233,7 @@
                 "prerequisites": ["or COMP-1000 MATH-1720", "COMP-1410"],
                 "antirequisites": []
             },
-    "COMP-2800":    {
+        {
                 "name": "Software Development",
                 "department": "COMP",
                 "course_code": "2800",
@@ -242,7 +242,7 @@
                 "prerequisites": ["COMP-2120"],
                 "antirequisites": []
             },
-    "COMP-2980":    {
+        {
                 "name": "Co-op Work Term I",
                 "department": "COMP",
                 "course_code": "2980",
@@ -251,7 +251,7 @@
                 "prerequisites": [],
                 "antirequisites": []
             },
-    "COMP-3037":    {
+        {
                 "name": "Information Security for IT",
                 "department": "COMP",
                 "course_code": "3037",
@@ -260,7 +260,7 @@
                 "prerequisites": ["or COMP-2057 COMP-2067"],
                 "antirequisites": []
             },
-    "COMP-3057":    {
+        {
                 "name": "Cyber-Ethics",
                 "department": "COMP",
                 "course_code": "3057",
@@ -269,7 +269,7 @@
                 "prerequisites": ["COMP-1047", "COMP-2057"],
                 "antirequisites": []
             },
-    "COMP-3067":    {
+        {
                 "name": "Applied Databases",
                 "department": "COMP",
                 "course_code": "3067",
@@ -278,7 +278,7 @@
                 "prerequisites": ["COMP-2547"],
                 "antirequisites": []
             },
-    "COMP-3077":    {
+        {
                 "name": "Web-Based Data Management",
                 "department": "COMP",
                 "course_code": "3077",
@@ -287,7 +287,7 @@
                 "prerequisites": ["COMP-2707"],
                 "antirequisites": []
             },
-    "COMP-3110":    {
+        {
                 "name": "Introduction to Software Engineering",
                 "department": "COMP",
                 "course_code": "3110",
@@ -296,7 +296,7 @@
                 "prerequisites": ["COMP-2120", "COMP-2540"],
                 "antirequisites": []
             },
-    "COMP-3150":    {
+        {
                 "name": "Database Management Systems",
                 "department": "COMP",
                 "course_code": "3150",
@@ -305,7 +305,7 @@
                 "prerequisites": ["COMP-2540", "or COMP-2560 COMP-2650"],
                 "antirequisites": []
             },
-    "COMP-3220":    {
+        {
                 "name": "Object-Oriented Software Analysis and Design",
                 "department": "COMP",
                 "course_code": "3220",
@@ -314,7 +314,7 @@
                 "prerequisites": ["COMP-2120", "COMP-2540"],
                 "antirequisites": []
             },
-    "COMP-3250":    {
+        {
                 "name": "Data Analytics I",
                 "department": "COMP",
                 "course_code": "3250",
@@ -323,7 +323,7 @@
                 "prerequisites": ["or COMP-2547 COMP-2540", "STAT-2910"],
                 "antirequisites": []
             },
-    "STAT-2910":    {
+        {
                 "name": "Statistics for the Sciences",
                 "department": "STAT",
                 "course_code": "2910",
@@ -332,7 +332,7 @@
                 "prerequisites": [],
                 "antirequisites": []
             },
-    "COMP-3300":    {
+        {
                 "name": "Operating Systems Fundamentals",
                 "department": "COMP",
                 "course_code": "3300",
@@ -341,7 +341,7 @@
                 "prerequisites": ["COMP-2120", "COMP-2540", "COMP-2560", "or COMP-2650 COMP-2660 23"],
                 "antirequisites": []
             },
-    "COMP-3340":    {
+        {
                 "name": "World Wide Web Information Systems Development",
                 "department": "COMP",
                 "course_code": "3340",
@@ -350,7 +350,7 @@
                 "prerequisites": ["COMP-2120", "COMP-2540"],
                 "antirequisites": []
             },
-    "COMP-3400":    {
+        {
                 "name": "Advanced Object Oriented System Design Using C++",
                 "department": "COMP",
                 "course_code": "3400",
@@ -359,7 +359,7 @@
                 "prerequisites": ["COMP-2120", "COMP-2560"],
                 "antirequisites": []
             },
-    "COMP-3500":    {
+        {
                 "name": "Introduction to Multimedia Systems",
                 "department": "COMP",
                 "course_code": "3500",
@@ -368,7 +368,7 @@
                 "prerequisites": ["COMP-2540", "COMP-2560"],
                 "antirequisites": []
             },
-    "COMP-3520":    {
+        {
                 "name": "Introduction to Computer Graphics",
                 "department": "COMP",
                 "course_code": "3520",
@@ -377,7 +377,7 @@
                 "prerequisites": ["COMP-2540", "or MATH-1250 MATH-1260"],
                 "antirequisites": []
             },
-    "COMP-3540":    {
+        {
                 "name": "Theory of Computation",
                 "department": "COMP",
                 "course_code": "3540",
@@ -386,7 +386,7 @@
                 "prerequisites": ["COMP-2140", "COMP-2310", "COMP-2540"],
                 "antirequisites": []
             },
-    "COMP-3670":    {
+        {
                 "name": "Computer Networks",
                 "department": "COMP",
                 "course_code": "3670",
@@ -395,7 +395,7 @@
                 "prerequisites": ["COMP-2120", "COMP-2540", "COMP-2560", "COMP-2650"],
                 "antirequisites": []
             },
-    "COMP-3680":    {
+        {
                 "name": "Network Practicum",
                 "department": "COMP",
                 "course_code": "3680",
@@ -404,7 +404,7 @@
                 "prerequisites": ["COMP-3300", "COMP-3670"],
                 "antirequisites": []
             },
-    "COMP-3710":    {
+        {
                 "name": "Artificial Intelligence Concepts",
                 "department": "COMP",
                 "course_code": "3710",
@@ -413,7 +413,7 @@
                 "prerequisites": ["COMP-2540", "STAT-2910"],
                 "antirequisites": []
             },
-    "COMP-3750":    {
+        {
                 "name": "Selected Topics",
                 "department": "COMP",
                 "course_code": "3750",
@@ -422,7 +422,7 @@
                 "prerequisites": ["COMP-2120", "COMP-2540", "COMP-2560"],
                 "antirequisites": []
             },
-    "COMP-3760":    {
+        {
                 "name": "Selected Topics",
                 "department": "COMP",
                 "course_code": "3760",
@@ -431,7 +431,7 @@
                 "prerequisites": ["COMP-2120", "COMP-2540", "COMP-2560"],
                 "antirequisites": []
             },
-    "COMP-3770":    {
+        {
                 "name": "Game Design, Development and Tools",
                 "department": "COMP",
                 "course_code": "3770",
@@ -440,7 +440,7 @@
                 "prerequisites": ["COMP-2120", "COMP-2540"],
                 "antirequisites": []
             },
-    "COMP-3980":    {
+        {
                 "name": "Co-op Work Term II",
                 "department": "COMP",
                 "course_code": "3980",
@@ -449,7 +449,7 @@
                 "prerequisites": ["COMP-2980"],
                 "antirequisites": []
             },
-    "COMP-4110":    {
+        {
                 "name": "Software Verification and Testing",
                 "department": "COMP",
                 "course_code": "4110",
@@ -458,7 +458,7 @@
                 "prerequisites": ["COMP-3110", "COMP-3300"],
                 "antirequisites": []
             },
-    "COMP-4150":    {
+        {
                 "name": "Advanced and Practical Database Systems",
                 "department": "COMP",
                 "course_code": "4150",
@@ -467,7 +467,7 @@
                 "prerequisites": ["COMP-3150", "COMP-3300"],
                 "antirequisites": []
             },
-    "COMP-4200":    {
+        {
                 "name": "Mobile Application Development",
                 "department": "COMP",
                 "course_code": "4200",
@@ -476,7 +476,7 @@
                 "prerequisites": ["COMP-3150", "COMP-3220"],
                 "antirequisites": []
             },
-    "COMP-4220":    {
+        {
                 "name": "Agile Software Development",
                 "department": "COMP",
                 "course_code": "4220",
@@ -485,7 +485,7 @@
                 "prerequisites": ["COMP-3220"],
                 "antirequisites": []
             },
-    "COMP-4250":    {
+        {
                 "name": "Big Data Analytics and Database Design",
                 "department": "COMP",
                 "course_code": "4250",
@@ -494,7 +494,7 @@
                 "prerequisites": ["COMP-3150"],
                 "antirequisites": []
             },
-    "COMP-4400":    {
+        {
                 "name": "Principles of Programming Languages",
                 "department": "COMP",
                 "course_code": "4400",
@@ -503,7 +503,7 @@
                 "prerequisites": ["COMP-2140", "COMP-2310", "COMP-2540"],
                 "antirequisites": []
             },
-    "COMP-4500":    {
+        {
                 "name": "3D Multimedia System Development",
                 "department": "COMP",
                 "course_code": "4500",
@@ -512,7 +512,7 @@
                 "prerequisites": [],
                 "antirequisites": []
             },
-    "COMP-4540":    {
+        {
                 "name": "Design and Analysis of Computer Algorithms",
                 "department": "COMP",
                 "course_code": "4540",
@@ -521,7 +521,7 @@
                 "prerequisites": ["COMP-2310", "COMP-2540"],
                 "antirequisites": []
             },
-    "COMP-4670":    {
+        {
                 "name": "Network Security",
                 "department": "COMP",
                 "course_code": "4670",
@@ -530,7 +530,7 @@
                 "prerequisites": ["COMP-3670"],
                 "antirequisites": []
             },
-    "COMP-4680":    {
+        {
                 "name": "Advanced Networking",
                 "department": "COMP",
                 "course_code": "4680",
@@ -539,7 +539,7 @@
                 "prerequisites": ["COMP-3670", "COMP-3680"],
                 "antirequisites": []
             },
-    "COMP-4700":    {
+        {
                 "name": "Project Using Selected Tools",
                 "department": "COMP",
                 "course_code": "4700",
@@ -548,7 +548,7 @@
                 "prerequisites": ["COMP-3150", "COMP-3220", "COMP-3300"],
                 "antirequisites": []
             },
-    "COMP-4730":    {
+        {
                 "name": "Advanced Topics in Artificial Intelligence I",
                 "department": "COMP",
                 "course_code": "4730",
@@ -557,7 +557,7 @@
                 "prerequisites": ["COMP-3710"],
                 "antirequisites": []
             },
-    "COMP-4740":    {
+        {
                 "name": "Advanced Topics in Artificial Intelligence II",
                 "department": "COMP",
                 "course_code": "4740",
@@ -566,7 +566,7 @@
                 "prerequisites": ["COMP-3710"],
                 "antirequisites": []
             },
-    "COMP-4750":    {
+        {
                 "name": "Selected Topics",
                 "department": "COMP",
                 "course_code": "4750",
@@ -575,7 +575,7 @@
                 "prerequisites": [],
                 "antirequisites": []
             },
-    "COMP-4760":    {
+        {
                 "name": "Selected Topics",
                 "department": "COMP",
                 "course_code": "4760",
@@ -584,7 +584,7 @@
                 "prerequisites": [],
                 "antirequisites": []
             },
-    "COMP-4770":    {
+        {
                 "name": "Artificial Intelligence for Games",
                 "department": "COMP",
                 "course_code": "4770",
@@ -593,7 +593,7 @@
                 "prerequisites": ["COMP-3770"],
                 "antirequisites": []
             },
-    "COMP-4800":    {
+        {
                 "name": "Selected Topics in Software Engineering",
                 "department": "COMP",
                 "course_code": "4800",
@@ -602,7 +602,7 @@
                 "prerequisites": ["COMP-3110", "COMP-3220", "COMP-3300"],
                 "antirequisites": []
             },
-    "COMP-4660A":    {
+        {
                 "name": "Research Project A",
                 "department": "COMP",
                 "course_code": "4660A",
@@ -611,7 +611,7 @@
                 "prerequisites": [],
                 "antirequisites": ["COMP-4990A", "COMP-4990B"]
             },
-    "COMP-4660B":    {
+        {
                 "name": "Research Project B",
                 "department": "COMP",
                 "course_code": "4660B",
@@ -620,7 +620,7 @@
                 "prerequisites": ["COMP-4660A"],
                 "antirequisites": ["COMP-4990A", "COMP-4990B"]
             },
-    "COMP-4970":    {
+        {
                 "name": "Co-op Work Term III",
                 "department": "COMP",
                 "course_code": "4970",
@@ -629,7 +629,7 @@
                 "prerequisites": ["COMP-3980"],
                 "antirequisites": []
             },
-    "COMP-4980":    {
+        {
                 "name": "Co-op Work Term IV",
                 "department": "COMP",
                 "course_code": "4980",
@@ -638,7 +638,7 @@
                 "prerequisites": ["COMP-4970"],
                 "antirequisites": []
             },
-    "COMP-4990A":    {
+        {
                 "name": "Project Management: Techniques and Tools A",
                 "department": "COMP",
                 "course_code": "4990A",
@@ -647,7 +647,7 @@
                 "prerequisites": [""],
                 "antirequisites": ["COMP-4660A", "COMP-4660B"]
             },
-    "COMP-4990B":    {
+        {
                 "name": "Project Management: Techniques and Tools B",
                 "department": "COMP",
                 "course_code": "4990B",
@@ -656,4 +656,4 @@
                 "prerequisites": ["COMP-4990A"],
                 "antirequisites": ["COMP-4660A", "COMP-4660B"]
             }
-}
+]
