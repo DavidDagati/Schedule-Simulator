@@ -1,34 +1,54 @@
+import { useEffect, useState } from "react";
 import { useLocation } from "react-router-dom";
-// import SemesterComponent from "../components/SemesterComponent";
+import SemesterComponent from "../components/SemesterComponent";
+import { convertTerm } from "../utils/utils";
 
 //TODO: Replace MenuItems with real program data
-export default function Results(props: any) {
+export default function Results() {
     const { state } = useLocation()
+    const [sequence, setSequence] = useState<Object>({})
     const {programId} = state
-    console.log(state);
     console.log(programId);
-    
-    //UseEffect for results
+    console.log('sequence: ', sequence);
 
-    // const { results } = await fetch('localhost:8050/sequence', {
-    //     method: 'POST',
-    //     headers: {
-    //         "Content-Type": "application/json"
-    //     },
-    //     body: JSON.stringify({test: 'test'})
-    // })
+    //Fetch results
+    useEffect(() => {
+        async function fetchData() {
+            const res = await fetch('http://localhost:8000/program', {
+                method: "POST",
+                mode: "cors",
+                headers: {
+                    "Content-Type": "application/json"
+                },
+                body: JSON.stringify({programId})
+            })
+            setSequence(await res.json() as any)
+        }
+        fetchData()
+    }, [])
+
+    if(Object.keys(sequence).length == 0) {
+        return <h1>Loading...</h1>
+    }
 
     return (
         <>
             <h1>Simulated Sequence</h1>
-            {/* <div className="flex items-center justify-center gap-5">
+            <div className="flex justify-center gap-5">
                 {
-                    
+                    Object.keys(sequence).map((key, i) => {
+                        const term = convertTerm(key);
+                        if(sequence[key].length == 0) {
+                            return <></>
+                        }
+                        else {
+                            return (
+                                <SemesterComponent term={term} classes={sequence[key]}/> 
+                            )
+                        }
+                    })
                 }
-                <SemesterComponent classes={['class 1', 'class 2', 'class 3', 'class 4', 'class 5']} />
-                <SemesterComponent classes={['class 1', 'class 2', 'class 3', 'class 4', 'class 5']} />
-                <SemesterComponent classes={['class 1', 'class 2', 'class 3', 'class 4', 'class 5']} />
-            </div> */}
+            </div>
         </>
     )
 }

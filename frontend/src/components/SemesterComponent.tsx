@@ -2,7 +2,7 @@ import { Divider, List, ListItem, ListItemText, ListSubheader } from "@mui/mater
 
 type SemesterProps = {
     term: String
-    classes: Array<String>;
+    classes: Array<String>
 }
 
 export default function SemesterComponent(props: SemesterProps) {

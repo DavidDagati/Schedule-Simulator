@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-export type Course {
+export type Course = {
     name: String;
     department: Number;
     course_code: Number;

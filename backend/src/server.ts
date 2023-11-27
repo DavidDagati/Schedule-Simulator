@@ -5,6 +5,8 @@ import MongoStore from 'connect-mongo';
 import dotenv from 'dotenv';
 import { user } from './controllers/UserController';
 import { program } from './controllers/ProgramController';
+import cors from 'cors';
+import { statistics } from './controllers/StatisticsController';
 
 //For env File 
 dotenv.config();
@@ -14,6 +16,7 @@ const port = process.env.PORT || 8000;
 
 app.use(express.urlencoded({extended: false}))
 app.use(express.json())
+app.use(cors())
 
 async function connectMongoose() {
   mongoose.connection.on('connected', () => {
@@ -26,7 +29,7 @@ async function connectMongoose() {
     }
   )
   try {
-    await mongoose.connect(process.env.mongoUrl as string)
+    await mongoose.connect(process.env.mongoUrl as string, {dbName: 'Staging'})
   } catch(err) {
     console.log('could not connect to mongo')
   }
@@ -55,6 +58,7 @@ app.use(
 //Controllers
 program(app)
 user(app)
+statistics(app)
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Welcome to Express & TypeScript Server');

@@ -4,6 +4,8 @@ export type Program = {
     name: String;
     department: Number;
     requiredCourses?: Array<Number>;
+    otherRequirements?: String;
+    defaultSequence?: Object;
 }
 
 

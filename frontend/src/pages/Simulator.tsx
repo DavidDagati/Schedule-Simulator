@@ -1,11 +1,25 @@
 import { InputLabel, MenuItem, Select, Button, FormControl } from "@mui/material";
-import { useState } from "react";
-import { Link, useLoaderData } from "react-router-dom";
+import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
+import { Program } from "../types/types";
 
-//TODO: Replace MenuItems with real program data
+//TODO: Use react router loader
 export default function Simulator() {
   const [input, setInput] = useState('')
-  const programs: Array<String> = useLoaderData()
+  const [programs, setPrograms] = useState<Program[]>([])
+
+  //Fetch programs
+  useEffect(() => {
+    async function fetchData() {
+      const res = await fetch('http://localhost:8000/program')
+      setPrograms(await res.json() as Program[])
+    }
+    fetchData()
+  }, [])
+
+  if (programs.length == 0) {
+    return <h1>Loading...</h1>
+  }
 
   return (
     <>
@@ -20,9 +34,9 @@ export default function Simulator() {
             autoWidth
             onChange={e => setInput(e.target.value as any)}
           >
-            <MenuItem value="program1ID">Program 1</MenuItem>
-            <MenuItem value="program2ID">Program 2</MenuItem>
-            <MenuItem value="program3ID">Program 3</MenuItem>
+            {programs.map((program) => (
+              <MenuItem value={program._id}>{program.name}</MenuItem>
+            ))}
           </Select>
           <Link to={'/results'} state={{programId: input}}><Button variant="contained">Go!</Button></Link>
         {/* </div> */}
