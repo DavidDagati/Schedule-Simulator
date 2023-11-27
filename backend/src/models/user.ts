@@ -1,17 +1,19 @@
 import mongoose from 'mongoose';
 
 export type User = {
-    name: String;
+    username: String;
+    passwordHash?: String;
     isAdmin: Boolean;
 }
 
-const UserSchema = new mongoose.Schema({
+const UserSchema = new mongoose.Schema<User>({
     username: {
         type: String,
         required: true,
     },
     passwordHash: {
         type: String,
+        required: true,
         select: false,
     },
     isAdmin: {
@@ -20,4 +22,4 @@ const UserSchema = new mongoose.Schema({
     }
 })
 
-export const UserModel = mongoose.model('User', UserSchema);
+export const UserModel = mongoose.model<User>('User', UserSchema);

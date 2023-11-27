@@ -1,10 +1,10 @@
 import express, { Express, Request, Response , Application } from 'express';
 import session from 'express-session';
-import mongoose from 'mongoose';
+import mongoose, { mongo } from 'mongoose';
 import MongoStore from 'connect-mongo';
 import dotenv from 'dotenv';
 import { user } from './controllers/UserController';
-import { sequence } from './controllers/SequenceController';
+import { program } from './controllers/ProgramController';
 
 //For env File 
 dotenv.config();
@@ -14,6 +14,25 @@ const port = process.env.PORT || 8000;
 
 app.use(express.urlencoded({extended: false}))
 app.use(express.json())
+
+async function connectMongoose() {
+  mongoose.connection.on('connected', () => {
+    console.log('connected to mongo')
+  })
+  mongoose.connection.on(
+    'error',
+    () => {
+      console.error('mongo error')
+    }
+  )
+  try {
+    await mongoose.connect(process.env.mongoUrl as string)
+  } catch(err) {
+    console.log('could not connect to mongo')
+  }
+}
+
+connectMongoose()
 
 declare module 'express-session' {
   interface SessionData {
@@ -34,8 +53,8 @@ app.use(
 )
 
 //Controllers
-user(app);
-sequence(app);
+program(app)
+user(app)
 
 app.get('/', (req: Request, res: Response) => {
   res.send('Welcome to Express & TypeScript Server');

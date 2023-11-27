@@ -6,6 +6,13 @@ export type Program = {
     requiredCourses?: Array<Number>;
 }
 
+
+export type Sequence = {
+    
+}
+
+export type Term = Array<String>
+
 const ProgramSchema = new mongoose.Schema({
     name: {
         type: String,
@@ -23,8 +30,8 @@ const ProgramSchema = new mongoose.Schema({
         type: String
     },
     defaultSequence: {
-        type: Object 
+        type: Object
     }
 })
 
-export const ProgramModel = mongoose.model('Program', ProgramSchema);
+export const ProgramModel = mongoose.model('Programs', ProgramSchema);
