@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
       <h1>Student Schedule Simulator</h1>
-      <Button variant='contained'><Link className='button-link' to="/login">Get Started</Link></Button>
+      <Button variant='contained'><Link className='button-link' to="/simulate">Get Started</Link></Button>
     </>
   )
 }
