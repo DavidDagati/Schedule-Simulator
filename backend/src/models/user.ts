@@ -6,7 +6,7 @@ export type User = {
     isAdmin: Boolean;
 }
 
-//Change back to use proper hashed passwords
+//TODO: Change back to use proper hashed passwords
 const UserSchema = new mongoose.Schema<User>({
     username: {
         type: String,
