@@ -2,19 +2,19 @@ import mongoose from 'mongoose';
 
 export type User = {
     username: String;
-    passwordHash?: String;
+    password?: String;
     isAdmin: Boolean;
 }
 
+//Change back to use proper hashed passwords
 const UserSchema = new mongoose.Schema<User>({
     username: {
         type: String,
         required: true,
     },
-    passwordHash: {
+    password: {
         type: String,
         required: true,
-        select: false,
     },
     isAdmin: {
         type: Boolean,

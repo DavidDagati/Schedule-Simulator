@@ -24,22 +24,21 @@ export default function Simulator() {
   return (
     <>
         <h1>Simulator</h1>
-        <FormControl>
-        {/* <div className="flex flex-col gap-4 items-center justify-center"> */}
-          <InputLabel id="program-select">Select Program</InputLabel>
-          <Select
-            labelId="program-select"
-            id="program-select-1"
-            label="Program"
-            autoWidth
-            onChange={e => setInput(e.target.value as any)}
-          >
-            {programs.map((program) => (
-              <MenuItem value={program._id}>{program.name}</MenuItem>
-            ))}
-          </Select>
-          <Link to={'/results'} state={{programId: input}}><Button variant="contained">Go!</Button></Link>
-        {/* </div> */}
+        <FormControl fullWidth>
+          <div className="flex flex-col gap-4 justify-center">
+            <InputLabel id="program-select">Select Program</InputLabel>
+            <Select
+              labelId="program-select"
+              id="program-select-1"
+              label="Program"
+              onChange={e => setInput(e.target.value as any)}
+            >
+              {programs.map((program) => (
+                <MenuItem value={program._id}>{program.name}</MenuItem>
+              ))}
+            </Select>
+            <Link to={'/results'} state={{programId: input}}><Button variant="contained">Go!</Button></Link>
+          </div>
         </FormControl> 
     </>
   );

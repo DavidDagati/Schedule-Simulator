@@ -7,7 +7,10 @@ function Home() {
   return (
     <>
       <h1>Student Schedule Simulator</h1>
-      <Button variant='contained'><Link className='button-link' to="/simulate">Get Started</Link></Button>
+      <div className='flex justify-center gap-5'>
+        <Button variant='contained'><Link className='button-link' to="/simulate">Get Started</Link></Button>
+        <Button variant='outlined'><Link className='button-link' to="/login">Admin Login</Link></Button>
+      </div>
     </>
   )
 }

@@ -3,6 +3,10 @@ COMP 4150
 
 ## Setup
 
+### Backend env
+Create a .env in root of the backend folder
+set MongoUrl= to the database uri
+
 ### Virtual Environment (in python folder)
 Python -m venv env
 env/Scripts/Activate

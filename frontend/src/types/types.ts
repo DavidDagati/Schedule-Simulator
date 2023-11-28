@@ -6,3 +6,9 @@ export type Program = {
     otherRequirements?: String;
     defaultSequence?: Object;
 }
+
+export type Statistics = {
+    programCount: number;
+    departmentCount: number;
+    courseCount: number;
+}

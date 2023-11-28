@@ -8,8 +8,6 @@ export default function Results() {
     const { state } = useLocation()
     const [sequence, setSequence] = useState<Object>({})
     const {programId} = state
-    console.log(programId);
-    console.log('sequence: ', sequence);
 
     //Fetch results
     useEffect(() => {
