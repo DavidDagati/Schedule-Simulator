@@ -1,0 +1,35 @@
+# This CITATION.cff file was generated with cffinit.
+# Visit https://bit.ly/cffinit to generate yours today!
+
+cff-version: 1.2.0
+title: Schedule Simulator
+message: >-
+  If you use this software, please cite it using the
+  metadata from this file.
+type: software
+authors:
+  - given-names: Keon
+    family-names: Kouhang
+    email: kouhang@uwindsor.ca
+    affiliation: University of Windsor
+  - given-names: David
+    family-names: Dagati
+    email: dagati@uwindsor.ca
+    affiliation: University of Windsor
+repository-code: 'https://github.com/DavidDagati/Schedule-Simulator'
+abstract: >-
+  Schedule Simulator is a University of Windsor degree
+  planner, allowing for the choice of program to be
+  selected, and an output of all required courses in a
+  correct and up-to-date offering period display in an
+  easy-to-use manner. Created with a three-tier architecture
+  using Python, Javascript, and Typescript, along with many
+  tools such as Node.js and React.js. Our NoSQL database,
+  MongoDB, was used through MongoDB Atlas to interact with
+  the storage of data, and we enforced data integrity rules
+  using Typescript Schemas. We were able to scrape
+  University of Windsor data and combine it into one great
+  resource. We look forward to continuing our development of
+  Schedule Simulator and look forward to it covering not
+  only a subset of the Computer Science Department but the
+  entire University of Windsor.
